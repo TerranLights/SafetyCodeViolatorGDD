@@ -1,5 +1,8 @@
 # 00_Game_Pitch
 
+## Steam Under-300-Character Description
+Live your dream as the exact opposite of an OSHA Officer by making workplaces as utterly dangerous as possible!
+
 ## One-Liner
 **Safety Code Violator** is a darkly comedic real-time simulation game where you play as a malicious “Safety Consultant” whose real job is to turn ordinary workplaces into hilarious deathtraps while maintaining perfect plausible deniability.
 
