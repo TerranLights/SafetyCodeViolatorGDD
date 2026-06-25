@@ -28,6 +28,9 @@ Turn normal workplaces (offices, factories, restaurants, construction sites, etc
 - *The Sims* (watching little people suffer beautifully)
 - *Papers, Please* (bureaucratic evil)
 
+##### Other Influences:
+- Happy Tree Friends
+
 ---
 
 **"Improving workplace safety... one tragic accident at a time."**
