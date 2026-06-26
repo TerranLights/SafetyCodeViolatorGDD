@@ -19,7 +19,7 @@ This document serves two purposes:
 
 ## Combo Scoring Bonuses
 
-These map directly onto the scoring axes in ProgressionAndScoring_FINAL.md:
+These map directly onto the scoring axes in Progression_and_Scoring.md:
 
 | Bonus Type | What Triggers It | Scoring Axis |
 |------------|-----------------|-------------|
@@ -43,7 +43,7 @@ Every hazard in the game must satisfy these rules. Use when designing new hazard
 No hazard should be obviously and inexplicably malicious on its own. Even a crocodile moat needs a corporate justification ("site management opted for unconventional perimeter security"). The humor comes from the deadpan presentation, not from the hazard winking at the camera.
 
 **Rule 2 — Stronger hazards have higher suspicion**
-High-impact hazards contribute more to the PD meter. This is the core tension — the most satisfying hazards are also the riskiest to use. Subtlety is rewarded. Full tier system in HazardInheritanceSystem.md.
+High-impact hazards contribute more to the PD meter. This is the core tension — the most satisfying hazards are also the riskiest to use. Subtlety is rewarded. Full tier system in Hazard_Inheritance_System.md.
 
 **Rule 3 — The best traps are combinations of 3+ smaller ones**
 A single High Suspicion hazard is risky and scores moderately. Three Low Suspicion hazards that chain together score better, contribute less PD, and are more satisfying. The system should always reward layered thinking over brute force.
@@ -215,4 +215,4 @@ Step 1 → Step 2 → Step 3 → Final outcome
 
 *This is a living document. New combos should be added as new environments are designed and as playtesting reveals emergent chains the design team didn't anticipate. The best entries in this document will be ones nobody planned.*
 
-*Cross-reference HazardInheritanceSystem.md for full hazard definitions, WorkerArchetypes_FINAL.md for archetype behavior details, and ProgressionAndScoring_FINAL.md for scoring axis definitions.*
+*Cross-reference Hazard_Inheritance_System.md for full hazard definitions, Worker_Archetypes.md for archetype behavior details, and Progression_and_Scoring.md for scoring axis definitions.*

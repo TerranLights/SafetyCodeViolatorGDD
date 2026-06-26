@@ -31,7 +31,7 @@ Session target: **15–30 minutes** per shift, fully achievable on Android in on
 - At 64x: Deliberate chipmunk effect — played for comedy, not realism
 - At Pause: All gameplay audio fades to near-silence within 0.5 seconds
 
-Full audio details: Sound_and_Music_Direction_FINAL.md
+Full audio details: Sound_and_Music_Direction.md
 
 ---
 
@@ -53,7 +53,7 @@ Every simulation represents one full in-game working day. The Working Day Timer 
 
 **Softlock prevention:** The Working Day Timer ensures every shift ends regardless of trap state. A trap placed in a corner nobody ever walks into will simply not trigger this shift — it becomes a Persistent Trap with PD accumulation consequences for next shift.
 
-Full Persistent Trap details: ShiftAndLevelStructure.md
+Full Persistent Trap details: Shift_and_Level_Structure.md
 
 ---
 
@@ -72,7 +72,7 @@ Full Persistent Trap details: ShiftAndLevelStructure.md
 - Manager conducts periodic walkthroughs on semi-fixed routes
 - Inspector (if spawned) patrols and responds to incidents
 
-Full worker behavior details: WorkerArchetypes_FINAL.md
+Full worker behavior details: Worker_Archetypes.md
 
 ---
 
@@ -130,4 +130,4 @@ A system that subtly suggests speed increases when nothing significant has happe
 
 ---
 
-*This document covers the time simulation system. Cross-reference ShiftAndLevelStructure.md for shift end states and Persistent Trap behavior, and Sound_and_Music_Direction_FINAL.md for speed control audio behavior.*
+*This document covers the time simulation system. Cross-reference Shift_and_Level_Structure.md for shift end states and Persistent Trap behavior, and Sound_and_Music_Direction.md for speed control audio behavior.*

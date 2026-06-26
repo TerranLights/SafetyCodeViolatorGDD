@@ -135,7 +135,7 @@ Highlights are shown with brief descriptive captions in the game's corporate dea
 | **The Phone Addict** | Walks slowly, head down, completely distracted | Looks up briefly, looks back down, keeps walking into it | Does not react to other workers' warnings. Completely unreachable by social archetypes. Zero fix-it behavior |
 | **The Health and Safety Rep** | Patrols methodically, notices environmental details | Calmly moves away from danger, warns others professionally | Essentially a mini-inspector. Highest fix-it behavior of all archetypes. Notices and actively disables obvious traps. Worth significant points if caught |
 | **The Lunch Guy** | Beelines toward any food source | Abandons all survival instinct if food is involved | Follows food-related lures without hesitation. Immune to other social influences while food is present. Routine heavily deviates toward break room |
-| **The Foreman** | Stays near their designated area, periodic walkthroughs | Retreats to safe location when danger detected | Special archetype — full behavior documented in ManagerBehavior.md |
+| **The Foreman** | Stays near their designated area, periodic walkthroughs | Retreats to safe location when danger detected | Special archetype — full behavior documented in Manager_Behavior.md |
 
 ---
 
@@ -176,7 +176,7 @@ Some archetypes create especially reliable or funny emergent situations when pla
 
 ## THE FOREMAN / MANAGER — SPECIAL ARCHETYPE
 
-The Foreman (Construction Site) / Manager (all other workplaces) is the most mechanically significant worker on any site. Full behavior, escalation system, retreat behavior, backup group, and authority equivalent per workplace are documented in **ManagerBehavior.md**.
+The Foreman (Construction Site) / Manager (all other workplaces) is the most mechanically significant worker on any site. Full behavior, escalation system, retreat behavior, backup group, and authority equivalent per workplace are documented in **Manager_Behavior.md**.
 
 Summary:
 - Stays near designated safe location by default
@@ -224,4 +224,4 @@ The Unlucky One, The Lucky One, The Conspiracy Theorist, The Sleepwalker, The He
 
 ---
 
-*This is a living document. New archetypes may be added as additional workplace environments are designed. Cross-reference ManagerBehavior.md for full Manager/Foreman behavior system.*
+*This is a living document. New archetypes may be added as additional workplace environments are designed. Cross-reference Manager_Behavior.md for full Manager/Foreman behavior system.*

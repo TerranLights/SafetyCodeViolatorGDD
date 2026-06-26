@@ -38,7 +38,7 @@
 
 ## What Progression Actually Unlocks
 
-Three gameplay tracks plus one cosmetic track, all driven by cumulative stars. Full tables in **ProgressionAndScoring_FINAL.md**.
+Three gameplay tracks plus one cosmetic track, all driven by cumulative stars. Full tables in **Progression_and_Scoring.md**.
 
 | Track | What It Controls | Cap |
 |-------|-----------------|-----|
@@ -81,7 +81,7 @@ Player opens game
 | Working Day ends | In-game timer reaches zero |
 | Player ends manually | Player chooses to stop early |
 
-Full details in **ShiftAndLevelStructure.md**.
+Full details in **Shift_and_Level_Structure.md**.
 
 ---
 
@@ -94,7 +94,7 @@ Full details in **ShiftAndLevelStructure.md**.
 | In Progress | Some milestones completed |
 | Mastered | All 15 milestones completed — Mastery Badge awarded |
 
-Full milestone list template in **ShiftAndLevelStructure.md**. Each workplace has 26 milestone stars available.
+Full milestone list template in **Shift_and_Level_Structure.md**. Each workplace has 26 milestone stars available.
 
 ---
 
@@ -108,7 +108,7 @@ Full milestone list template in **ShiftAndLevelStructure.md**. Each workplace ha
 | ⭐⭐⭐⭐ | All above + Inspector and/or Manager caught |
 | ⭐⭐⭐⭐⭐ | All above + PD never exceeded 50% + chain reaction of 3+ + Manager caught + Inspector caught |
 
-Full scoring system in **ProgressionAndScoring_FINAL.md**.
+Full scoring system in **Progression_and_Scoring.md**.
 
 ---
 
@@ -132,7 +132,7 @@ Full scoring system in **ProgressionAndScoring_FINAL.md**.
 - **Star rating improvement** — any shift can be replayed for a better rating, with the difference added to cumulative total retroactively
 - **Milestone Tree** — 10–15 milestones per workplace, completable across any number of shifts in any order
 - **Persistent traps** — unresolved traps carry forward between shifts, creating ongoing strategic consequences
-- **Level variants** — time of day, weather, crew composition, and special conditions create meaningfully different experiences on the same map. Full list in **LevelVariants.md**
+- **Level variants** — time of day, weather, crew composition, and special conditions create meaningfully different experiences on the same map. Full list in **Level_Variants.md**
 - **Weekly Challenge Shifts** — optional curated scenarios with preset conditions. Never required. Earn bonus stars
 - **Infinite shifts** — any workplace can be played indefinitely. No caps on replays
 - **Steam Leaderboards** — per-location and global. Chaos Score, Plausibility Rating, Viral Impact
@@ -150,13 +150,13 @@ Industrial, Food Service, Office/Corporate, Medical/Science, Retail/Warehouse, E
 
 | Topic | Document |
 |-------|----------|
-| Full progression track tables | ProgressionAndScoring_FINAL.md |
-| Shift structure and end states | ShiftAndLevelStructure.md |
-| Level variants | LevelVariants.md |
+| Full progression track tables | Progression_and_Scoring.md |
+| Shift structure and end states | Shift_and_Level_Structure.md |
+| Level variants | Level_Variants.md |
 | All planned workplaces | PlannedWorkplaces.md |
-| Hazard inheritance system | HazardInheritanceSystem.md |
-| Worker archetypes | WorkerArchetypes_FINAL.md |
-| Manager behavior and escalation | ManagerBehavior.md |
+| Hazard inheritance system | Hazard_Inheritance_System.md |
+| Worker archetypes | Worker_Archetypes.md |
+| Manager behavior and escalation | Manager_Behavior.md |
 
 ---
 

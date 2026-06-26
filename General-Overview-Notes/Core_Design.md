@@ -54,7 +54,7 @@ Every shift follows the same three-phase structure. There are no contracts, no b
 - Highlight reel, scoring axes, Most Valuable Victim, Best Combo, Insurance Money Saved displayed
 - Player chooses: replay, try different workplace, or return to menu
 
-**Full shift structure details:** ShiftAndLevelStructure.md
+**Full shift structure details:** Shift_and_Level_Structure.md
 
 ---
 
@@ -121,7 +121,7 @@ Darkly comedic, satirical, and absurd. The game is gloriously, unapologetically 
 - The Hero rushing to help and triggering the same trap
 - The Oblivious One walking past the crocodile moat four times
 - The Conspiracy Theorist investigating the wrong hazard entirely
-- Full archetype roster: WorkerArchetypes_FINAL.md
+- Full archetype roster: Worker_Archetypes.md
 
 **5. Deadpan Escalation**
 - Absurd hazards presented with complete seriousness
@@ -152,16 +152,16 @@ Darkly comedic, satirical, and absurd. The game is gloriously, unapologetically 
 
 | System | Summary | Document |
 |--------|---------|----------|
-| Hazard placement | Three-tier suspicion system, loadout and budget limits | HazardInheritanceSystem.md |
-| PD meter | Fills with incidents, triggers inspector at max | ManagerBehavior.md |
-| Inspector | Random patrol + accident-attracted, can trigger traps | ManagerBehavior.md |
-| Manager/Foreman | Three-stage escalation ladder, retreat behavior | ManagerBehavior.md |
-| Worker archetypes | 25 archetypes across four categories, daily routines, fix-it behavior | WorkerArchetypes_FINAL.md |
-| Scoring | Five-star system, ten scoring axes, debrief screen | ProgressionAndScoring_FINAL.md |
-| Progression | Four tracks driven by cumulative stars | ProgressionAndScoring_FINAL.md |
-| Persistent traps | Unresolved traps carry forward, accumulate PD | ShiftAndLevelStructure.md |
-| Level variants | Time of day, weather, crew composition, special conditions | LevelVariants.md |
-| Milestone trees | 15 milestones per workplace, 26 stars available each | ShiftAndLevelStructure.md |
+| Hazard placement | Three-tier suspicion system, loadout and budget limits | Hazard_Inheritance_System.md |
+| PD meter | Fills with incidents, triggers inspector at max | Manager_Behavior.md |
+| Inspector | Random patrol + accident-attracted, can trigger traps | Manager_Behavior.md |
+| Manager/Foreman | Three-stage escalation ladder, retreat behavior | Manager_Behavior.md |
+| Worker archetypes | 25 archetypes across four categories, daily routines, fix-it behavior | Worker_Archetypes.md |
+| Scoring | Five-star system, ten scoring axes, debrief screen | Progression_and_Scoring.md |
+| Progression | Four tracks driven by cumulative stars | Progression_and_Scoring.md |
+| Persistent traps | Unresolved traps carry forward, accumulate PD | Shift_and_Level_Structure.md |
+| Level variants | Time of day, weather, crew composition, special conditions | Level_Variants.md |
+| Milestone trees | 15 milestones per workplace, 26 stars available each | Shift_and_Level_Structure.md |
 
 ---
 

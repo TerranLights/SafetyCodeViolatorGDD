@@ -246,7 +246,7 @@ Variable crew size per shift:
 
 ## The Safety Inspector
 
-Spawns at Main Entrance/Reception when PD meter maxes out. Full behavior in ManagerBehavior.md.
+Spawns at Main Entrance/Reception when PD meter maxes out. Full behavior in Manager_Behavior.md.
 
 **Office specific notes:**
 - Cannot access server room easily — door access may require keycard
@@ -257,7 +257,7 @@ Spawns at Main Entrance/Reception when PD meter maxes out. Full behavior in Mana
 
 ## The Manager (Department Head / Middle Manager)
 
-Stays near their office or the meeting rooms. Conducts walkthroughs of open-plan workspace periodically. Full behavior in ManagerBehavior.md.
+Stays near their office or the meeting rooms. Conducts walkthroughs of open-plan workspace periodically. Full behavior in Manager_Behavior.md.
 
 **Office specific notes:**
 - Retreats to private office when danger detected — private office can be trapped
@@ -280,7 +280,7 @@ Office environments have naturally lower baseline PD generation than industrial 
 
 ## Level Variants Particularly Suited to This Environment
 
-From LevelVariants.md — these variants have especially strong synergy with the office setting:
+From Level_Variants.md — these variants have especially strong synergy with the office setting:
 
 - **After-Hours / Night Shift** — skeleton crew, different worker routines, security guard as primary target, cleaning staff present
 - **All-Hands Day** — maximum crew, entire company present, Manager is easier to find but harder to catch
@@ -318,13 +318,13 @@ From LevelVariants.md — these variants have especially strong synergy with the
 
 | Topic | Document |
 |-------|----------|
-| Full hazard list | HazardInheritanceSystem.md |
+| Full hazard list | Hazard_Inheritance_System.md |
 | Master hazard reference | MasterHazards.md |
-| Worker archetypes | WorkerArchetypes.md |
-| Manager behavior | ManagerBehavior.md |
-| Level variants | LevelVariants.md |
-| Scoring and star ratings | ProgressionAndScoring_FINAL.md |
-| Shift structure and persistent traps | ShiftAndLevelStructure.md |
+| Worker archetypes | Worker_Archetypes.md |
+| Manager behavior | Manager_Behavior.md |
+| Level variants | Level_Variants.md |
+| Scoring and star ratings | Progression_and_Scoring.md |
+| Shift structure and persistent traps | Shift_and_Level_Structure.md |
 | All planned workplaces | PlannedWorkplaces.md |
 
 ---
@@ -340,7 +340,7 @@ From LevelVariants.md — these variants have especially strong synergy with the
 | Unlock sequence (after Factory) | Removed — all workplaces available from start |
 | "Junior Violator" rank | Removed — no rank system |
 | Unlocking new hazards as reward | Replaced by hazard pool progression system |
-| Multi-floor / Executive Suite / After-Hours as unlocks | Reclassified — these are level variants in LevelVariants.md |
+| Multi-floor / Executive Suite / After-Hours as unlocks | Reclassified — these are level variants in Level_Variants.md |
 | Fixed hazard budget (8–12) | Replaced by progression-based placement budget system |
 | Difficulty rating (Beginner) | Removed — no difficulty rating system confirmed |
 | Flavor text and zone descriptions | Kept and expanded |

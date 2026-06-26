@@ -168,7 +168,7 @@ The Persistent Trap system (unresolved traps carrying forward between shifts wit
 - On shift end (any end state), game updates workplace save with new persistent trap state
 - If player upgrades from demo to full version, construction site workplace save carries over
 
-Full persistent trap system details: ShiftAndLevelStructure.md
+Full persistent trap system details: Shift_and_Level_Structure.md
 
 ---
 
@@ -195,4 +195,4 @@ Full persistent trap system details: ShiftAndLevelStructure.md
 
 ---
 
-*Cross-reference ShiftAndLevelStructure.md for Persistent Trap system details, ProgressionAndScoring_FINAL.md for progression track definitions, and Technical/Godot_Architecture.md for implementation architecture.*
+*Cross-reference Shift_and_Level_Structure.md for Persistent Trap system details, Progression_and_Scoring.md for progression track definitions, and Technical/Godot_Architecture.md for implementation architecture.*

@@ -24,7 +24,7 @@ Variable crew size depending on shift conditions and level variants:
 - **Standard crew:** 10–15 workers
 - **Large crew:** 20+ workers
 
-Worker types include builders, welders, crane operators, and supervisors. See WorkerArchetypes.md for full roster. See LevelVariants.md for crew composition variants.
+Worker types include builders, welders, crane operators, and supervisors. See Worker_Archetypes.md for full roster. See Level_Variants.md for crew composition variants.
 
 ---
 
@@ -94,7 +94,7 @@ Worker types include builders, welders, crane operators, and supervisors. See Wo
 | Trailer tipped off its supports | High | Entire trailer lists sideways, chaos ensues |
 | Bear in the bathroom | High | Self explanatory |
 
-**Strategic Note:** The Foreman is a special worker type — worth significant bonus points and harder to catch than regular workers. The trailer is also a natural gathering point, meaning a single well-placed trap can catch multiple workers at once. See ManagerBehavior.md for full Foreman/Manager behavior system.
+**Strategic Note:** The Foreman is a special worker type — worth significant bonus points and harder to catch than regular workers. The trailer is also a natural gathering point, meaning a single well-placed trap can catch multiple workers at once. See Manager_Behavior.md for full Foreman/Manager behavior system.
 
 ---
 
@@ -177,7 +177,7 @@ Worker types include builders, welders, crane operators, and supervisors. See Wo
 
 ## Workers
 
-Variable crew size per shift. Full archetype roster in WorkerArchetypes.md. Full level variant conditions (crew composition, time of day, weather) in LevelVariants.md.
+Variable crew size per shift. Full archetype roster in Worker_Archetypes.md. Full level variant conditions (crew composition, time of day, weather) in Level_Variants.md.
 
 **Construction Site specific archetypes to prioritize in crew generation:**
 - Crane operators — spend time at height, high chain reaction value
@@ -189,7 +189,7 @@ Variable crew size per shift. Full archetype roster in WorkerArchetypes.md. Full
 
 ## The Safety Inspector
 
-Spawns at the Perimeter/Entrance when the Plausible Deniability meter maxes out. Full behavior documented in ManagerBehavior.md.
+Spawns at the Perimeter/Entrance when the Plausible Deniability meter maxes out. Full behavior documented in Manager_Behavior.md.
 
 **Construction Site specific notes:**
 - Must climb scaffolding to reach Zone 4 hazards — rigged ladders can stop them before they get there
@@ -200,7 +200,7 @@ Spawns at the Perimeter/Entrance when the Plausible Deniability meter maxes out.
 
 ## Plausible Deniability Meter
 
-Full system documented in ProgressionAndScoring_FINAL.md. Construction Site specific notes:
+Full system documented in Progression_and_Scoring.md. Construction Site specific notes:
 
 - Scale of the site and number of workers makes witnesses more likely — obvious traps generate more PD here than in smaller environments
 - Chain reactions involving heavy machinery generate significant PD even at Low Suspicion tier due to scale
@@ -245,13 +245,13 @@ Full system documented in ProgressionAndScoring_FINAL.md. Construction Site spec
 
 | Topic | Document |
 |-------|----------|
-| Full hazard list | HazardInheritanceSystem.md |
+| Full hazard list | Hazard_Inheritance_System.md |
 | Master hazard reference | MasterHazards.md |
-| Worker archetypes | WorkerArchetypes.md |
-| Manager/Foreman behavior | ManagerBehavior.md |
-| Level variants | LevelVariants.md |
-| Scoring and star ratings | ProgressionAndScoring_FINAL.md |
-| Shift structure and persistent traps | ShiftAndLevelStructure.md |
+| Worker archetypes | Worker_Archetypes.md |
+| Manager/Foreman behavior | Manager_Behavior.md |
+| Level variants | Level_Variants.md |
+| Scoring and star ratings | Progression_and_Scoring.md |
+| Shift structure and persistent traps | Shift_and_Level_Structure.md |
 | All planned workplaces | PlannedWorkplaces.md |
 
 ---
