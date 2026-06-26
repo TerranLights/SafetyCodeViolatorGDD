@@ -201,9 +201,9 @@ Shift Start
 
 ### Speed Control Audio Handling
 - All audio time-stretches with simulation speed
-- At 2x-4x: subtle pitch shift, still intelligible
-- At 8x-16x: noticeable pitch elevation, cartoonish effect
-- At 32x-64x: deliberate chipmunk effect — played for comedy, not realism
+- At 1x: all audio plays normally
+- At 4x–16x: subtle pitch elevation, still intelligible
+- At 64x: deliberate chipmunk effect — played for comedy, not realism
 - Pause: all gameplay audio fades to near-silence within 0.5 seconds
 
 ---
@@ -221,4 +221,4 @@ The following audio cosmetics are unlocked through the progression system:
 
 ---
 
-*This is the canonical audio direction reference. The original Sound_and_Music_Direction.md has been expanded here. The original can be discarded.*
+*This is the canonical audio direction reference. Cross-reference Time_Simulation.md for speed control behavior, Art_Bible.md for visual direction, and Progression_and_Scoring.md for cosmetic unlock details.*
