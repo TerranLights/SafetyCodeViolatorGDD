@@ -1,51 +1,181 @@
-# Level_Progression
+# Level Progression — Quick Reference
 
-## Overall Structure
-The game is organized into **shifts** (individual playable levels), grouped into larger **chapters** that unlock new locations and mechanics.
+**Safety Code Violator GDD**
+*High-level overview of how progression works across the full game. For detailed systems see referenced documents.*
 
-## Progression Overview
+---
 
-### Early Game (Junior Violator)
-- Location: Office (primary)
-- 8–10 contracts
-- Teaches core mechanics: basic hazards, plausibility management, simple combos
-- Unlocks: Factory + basic advanced hazards
+## Core Principles
 
-### Mid Game (Skilled Violator)
-- Locations: Factory, Restaurant, Construction Site
-- 12–15 contracts
-- Introduces complex chain reactions, worker personality targeting, and mid-tier tools
-- Unlocks: Chemical Plant + timer-based sabotage
+- **All workplaces available from the start** in the full version — no location gates, no unlock sequences
+- **Progression makes you better, not merely allowed** — stars earned drive loadout, budget, and hazard pool expansion
+- **No prescribed goals** — sandbox only. Score emerges from how well you play, not whether you completed an objective
+- **Every shift contributes** — even a 1-star run adds to cumulative star total
 
-### Late Game (Master Violator)
-- Locations: High-Rise, Hospital, Amusement Park, Cruise Ship, etc.
-- 10–12 contracts + challenge contracts
-- Very large-scale chaos, multi-floor vertical gameplay, extreme plausibility challenges
-- Unlocks: Endgame locations and signature super-traps
+---
 
-### Endgame / Post-Game
-- Infinite mode / endless shifts in favorite locations
-- Weekly challenge contracts
-- High-score chasing
-- New Game+ with increased difficulty and new hazard modifiers
+## Demo / Free Version
 
-## Shift Structure (Per Level)
-Each shift = one workplace, one full day/shift cycle.
+| Property | Value |
+|----------|-------|
+| Available workplace | Construction Site only |
+| Shift structure | Full system active |
+| Progression | Stars accumulate normally, unlocks apply to Construction Site hazards only |
+| Upgrade incentive | All stars and unlocks carry over to full version on upgrade |
 
-- **Length**: 15–30 minutes real time
-- **Difficulty Scaling**:
-  - Budget available
-  - Starting Plausibility tolerance
-  - Number and personality of workers
-  - Objective strictness
+---
 
-## Unlock Rules
-- Completing a location’s contracts with high average scores unlocks the next location
-- Some locations have **parallel unlocks** (e.g. you can unlock Restaurant through either Office or Factory mastery)
-- Special “Milestone Contracts” act as bosses before major location unlocks
+## Full / Paid Version
 
-## Replayability
-- Star ratings (1–5) per shift based on score + plausibility
-- Leaderboards per location
-- “Perfect Shift” challenges (100% plausibility + high chaos)
-- Random contract modifiers (e.g. “Paranoid Safety Inspector”, “Double Budget”, “All Workers Are Clumsy”)
+| Property | Value |
+|----------|-------|
+| Available workplaces | All 40+ from the start |
+| Default first workplace | Construction Site |
+| After first shift | Player chooses freely what to do next |
+| Progression | Cumulative stars across all workplaces drive all four tracks |
+
+---
+
+## What Progression Actually Unlocks
+
+Three gameplay tracks plus one cosmetic track, all driven by cumulative stars. Full tables in **ProgressionAndScoring_FINAL.md**.
+
+| Track | What It Controls | Cap |
+|-------|-----------------|-----|
+| Loadout Size | How many hazard types per shift | 20 types at 200+ stars |
+| Placement Budget | Total hazard instances per shift | 50 placements at 200+ stars |
+| Per-Type Limit | Max instances of any single hazard | 4 at 140+ stars |
+| Hazard Pool | Which specific hazards are available | Everything at 200+ stars |
+| Cosmetics | Visual and audio flair | Ongoing |
+
+---
+
+## How a Typical Play Session Works
+
+```
+Player opens game
+└── Selects a workplace from the full roster
+    └── Reviews current state (persistent traps, starting PD if any)
+        └── Selects loadout from available hazard pool
+            └── Setup Phase — places hazards, no time limit
+                └── Simulation Phase — watches shift unfold
+                    └── Working Day Timer counts down
+                        └── Shift ends via any valid end state
+                            └── Debrief screen
+                                ├── Star rating awarded
+                                ├── Milestones checked
+                                ├── Stars added to cumulative total
+                                ├── Progression tracks updated
+                                └── Player chooses next action
+```
+
+---
+
+## Shift End States
+
+| End State | Description |
+|-----------|-------------|
+| Natural resolution | All traps resolved, simulation quiet |
+| Inspector clears site | Inspector disabled all remaining traps |
+| Authorities arrive | Manager escalation Stage 3 — hard stop |
+| Working Day ends | In-game timer reaches zero |
+| Player ends manually | Player chooses to stop early |
+
+Full details in **ShiftAndLevelStructure.md**.
+
+---
+
+## Level Completion vs. Mastery
+
+| State | Condition |
+|-------|-----------|
+| Visited | Workplace selected for first time |
+| Completed | 1 star earned on first shift |
+| In Progress | Some milestones completed |
+| Mastered | All 15 milestones completed — Mastery Badge awarded |
+
+Full milestone list template in **ShiftAndLevelStructure.md**. Each workplace has 26 milestone stars available.
+
+---
+
+## Star Rating Quick Reference
+
+| Stars | Requirements |
+|-------|-------------|
+| ⭐ | At least one incident |
+| ⭐⭐ | Multiple incidents, authorities never called |
+| ⭐⭐⭐ | Multiple incidents + PD never exceeded 75% + chain reaction of 2+ |
+| ⭐⭐⭐⭐ | All above + Inspector and/or Manager caught |
+| ⭐⭐⭐⭐⭐ | All above + PD never exceeded 50% + chain reaction of 3+ + Manager caught + Inspector caught |
+
+Full scoring system in **ProgressionAndScoring_FINAL.md**.
+
+---
+
+## Approximate Progression Timeline
+
+| Milestone | Approx. Cumulative Stars |
+|-----------|------------------------|
+| Loadout grows to 5 types | 10 stars |
+| Medium Suspicion hazards unlocked | 8–15 stars |
+| High Suspicion Universal hazards unlocked | 25 stars |
+| Per-type limit increases to 3 | 55 stars |
+| All High Suspicion hazards unlocked | 100 stars |
+| All Environment-Specific hazards unlocked | 130 stars |
+| Full Dinosaur roster unlocked | 160 stars |
+| Everything unlocked | 200+ stars |
+
+---
+
+## Replayability Features
+
+- **Star rating improvement** — any shift can be replayed for a better rating, with the difference added to cumulative total retroactively
+- **Milestone Tree** — 10–15 milestones per workplace, completable across any number of shifts in any order
+- **Persistent traps** — unresolved traps carry forward between shifts, creating ongoing strategic consequences
+- **Level variants** — time of day, weather, crew composition, and special conditions create meaningfully different experiences on the same map. Full list in **LevelVariants.md**
+- **Weekly Challenge Shifts** — optional curated scenarios with preset conditions. Never required. Earn bonus stars
+- **Infinite shifts** — any workplace can be played indefinitely. No caps on replays
+- **Steam Leaderboards** — per-location and global. Chaos Score, Plausibility Rating, Viral Impact
+
+---
+
+## Planned Workplaces
+
+Full list in **PlannedWorkplaces.md**. 40+ environments across seven category tags:
+Industrial, Food Service, Office/Corporate, Medical/Science, Retail/Warehouse, Entertainment, Extreme/Wildcard.
+
+---
+
+## Cross-References
+
+| Topic | Document |
+|-------|----------|
+| Full progression track tables | ProgressionAndScoring_FINAL.md |
+| Shift structure and end states | ShiftAndLevelStructure.md |
+| Level variants | LevelVariants.md |
+| All planned workplaces | PlannedWorkplaces.md |
+| Hazard inheritance system | HazardInheritanceSystem.md |
+| Worker archetypes | WorkerArchetypes_FINAL.md |
+| Manager behavior and escalation | ManagerBehavior.md |
+
+---
+
+## Conflicts Resolved From Prior Draft (Grok)
+
+| Element | Resolution |
+|---------|-----------|
+| Chapter-based unlock structure | Removed — all workplaces available from start |
+| Named rank tiers (Junior/Skilled/Master Violator) | Removed — no rank system |
+| Contract system throughout | Removed — sandbox only |
+| Location unlock sequences | Removed — all locations available from start |
+| Difficulty scaling via budget/objective strictness | Removed — budget driven by progression tracks only |
+| Milestone Contracts as bosses | Removed — no contract system |
+| New Game+ | Not confirmed — flagged for future consideration |
+| Infinite mode | Kept — noted under Replayability Features |
+| Per-location leaderboards | Kept — noted under Replayability Features |
+| Weekly challenge contracts | Kept as optional Weekly Challenge Shifts — not contracts |
+| Random modifiers concept | Absorbed into Level Variants system |
+
+---
+
+*This is a quick-reference overview document. All systems referenced here are fully detailed in their respective documents.*
