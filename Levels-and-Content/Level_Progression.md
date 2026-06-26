@@ -130,7 +130,7 @@ Full scoring system in **Progression_and_Scoring.md**.
 ## Replayability Features
 
 - **Star rating improvement** — any shift can be replayed for a better rating, with the difference added to cumulative total retroactively
-- **Milestone Tree** — 10–15 milestones per workplace, completable across any number of shifts in any order
+- **Milestone Tree** — 15 milestones per workplace, completable across any number of shifts in any order
 - **Persistent traps** — unresolved traps carry forward between shifts, creating ongoing strategic consequences
 - **Level variants** — time of day, weather, crew composition, and special conditions create meaningfully different experiences on the same map. Full list in **Level_Variants.md**
 - **Weekly Challenge Shifts** — optional curated scenarios with preset conditions. Never required. Earn bonus stars

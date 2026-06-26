@@ -25,7 +25,7 @@ These terms are used precisely throughout the GDD:
 Game
 └── Levels (workplace environments — 40+)
     ├── First Shift — completes the level (1 star minimum)
-    ├── Milestone Tree (10–15 per level, completed across any number of shifts)
+    ├── Milestone Tree (15 per level, completed across any number of shifts)
     └── Shifts (unlimited, repeatable, each awards stars toward cumulative total)
         └── Debrief (star rating, milestones checked, stars awarded, record updated)
 ```
@@ -206,7 +206,7 @@ A player's very first shift in any new workplace receives a special debrief head
 
 ## Milestone Tree
 
-Every level has a Milestone Tree of 10–15 achievements completable across any number of shifts in any order. Completing milestones awards bonus stars toward cumulative progression total.
+Every level has a Milestone Tree of 15 achievements completable across any number of shifts in any order. Completing milestones awards bonus stars toward cumulative progression total.
 
 **Universal milestone template (applies to every workplace):**
 
