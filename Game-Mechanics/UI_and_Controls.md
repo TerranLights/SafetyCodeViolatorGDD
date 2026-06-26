@@ -1,69 +1,149 @@
-# UI_and_Controls
-This file defines how the game will actually *feel* to play on both platforms.
+# UI & Controls — Safety Code Violator
+
+**Safety Code Violator GDD**
+*Defines all core screens, HUD elements, and control schemes for both platforms. Cross-reference Art_Bible.md for visual style and Platform_and_Technical.md for input implementation details.*
+
+---
 
 ## Design Philosophy
-- Clean, corporate-looking UI that contrasts with the chaos
-- Highly readable even during fast-forward and big explosions
-- Mobile-first (Android) design with large touch targets
-- PC version gets extra precision and shortcuts
+
+- Clean, corporate-looking UI that contrasts with the chaos on screen
+- Highly readable even during fast-forward and simultaneous incidents
+- Mobile-first (Android) design with large touch targets — minimum 44x44dp
+- PC version gets extra precision, tooltips, and keyboard shortcuts
+- Minimal clutter during simulation — the chaos is the main event, not the UI
+
+---
 
 ## Core Screens
 
-### 1. Hub / Violator Office
-- Contract board
-- Stats dashboard (career rank, total victims, reputation)
-- Unlock shop
-- Highlight reel archive
+### 1. Main Menu / Workplace Select
 
-### 2. Briefing Screen
-- Contract details, objectives, budget
-- Location preview image
-- "Accept Contract" button
+The primary between-shifts hub. Player returns here after every debrief.
+
+- **Workplace roster** — all 40+ environments displayed, all available from the start in the full version
+- **Per-workplace status** — Visited / Completed / In Progress / Mastered, best star rating, milestone progress
+- **Cumulative star total** — always visible, drives all four progression tracks
+- **Progression track display** — current loadout size, placement budget, per-type limit, hazard pool status
+- **Cosmetic unlock access** — browse and equip unlocked cosmetics (audio packs, visual flair, etc.)
+- **Highlight reel archive** — browse saved debrief highlights from previous shifts
+
+---
+
+### 2. Shift Briefing
+
+Shown when the player selects a workplace and before setup begins. No time limit.
+
+- **Workplace overview** — environment name, map preview image, zone summary
+- **Persistent trap state** — any unresolved traps from previous shifts are shown on the map with their accumulated PD values
+- **Starting PD meter value** — shown clearly before setup begins so the player knows what they're working with
+- **Loadout selection** — player picks from available hazard pool up to current loadout size limit. Per-type limits shown per hazard
+- **Worker roster preview** — archetypes active this shift, crew size
+- **Active level variant conditions** — time of day, weather, crew composition, or special conditions if active
+- **"Begin Setup" button** — confirms loadout and moves to setup phase
+
+---
 
 ### 3. Setup Phase UI
-- Hazard palette (categorized tabs)
-- Budget counter (top right)
-- Plausibility preview meter
-- Drag & drop placement with snap-to-grid option
-- Undo / Redo system
+
+Workers are frozen. Player places hazards. No time limit.
+
+- **Hazard palette** — categorized tabs showing available loadout selections
+- **Budget counter** — total placements remaining, always visible
+- **Per-type counter** — instances remaining for each selected hazard type
+- **Snap-to-grid toggle** — on by default, togglable for free placement
+- **Placement preview** — ghosted real-time preview showing exact position and validity:
+  - Green = valid placement
+  - Yellow = valid but high suspicion risk
+  - Red = invalid or obstructed
+- **Undo / Redo** — full stack for setup phase placement iteration
+- **Persistent trap overlay** — previously placed unresolved traps visible on map but not repositionable
+- **"Begin Simulation" button** — locks placement and starts the working day
+
+---
 
 ### 4. Simulation Phase UI
-- **Top Bar**:
-  - Plausible Deniability Meter (prominent, color-coded)
-  - Time control (1x / 4x / 16x / 64x + Pause)
-  - Current shift timer
-- **Bottom Bar**:
-  - Quick hazard drop buttons (favorites)
-  - Intervention tools
-- **Mini-map / Floor Overview** (toggleable)
+
+Workers unfreeze and the shift plays out. **No hazard placement or intervention during simulation** — the player observes only.
+
+**Top Bar:**
+- Plausible Deniability Meter — prominent, color-coded Green → Yellow → Orange → Red
+- Working Day Timer — counts down from shift start to end of working day
+- Speed controls — Pause / 1x / 4x / 16x / 64x
+
+**Overlays (toggleable):**
+- Mini-map / Floor Overview — bird's-eye map of full workplace with incident markers
+- Auto-camera toggle — enables/disables automatic camera focus on chain reactions
+
+**Manual shift end:**
+- Player can end the shift early at any time via a clearly accessible menu option — triggers debrief immediately with stars earned to that point
+
+---
 
 ### 5. Debrief Screen
-- Big score breakdown
-- Highlight reel (playable video clips)
-- Top 5 funniest moments with worker names
-- Unlock notifications
-- "Next Shift" / "Replay" buttons
+
+Fires after any valid shift end state. Full corporate deadpan presentation.
+
+- **Star rating** (1–5) with breakdown of which requirements were and weren't met
+- **Top 5 moments** from the simulation — highlighted incidents for review and replay
+- **"Most Valuable Victim" award** — worker archetype that contributed most to the chaos score
+- **"Best Combo" breakdown** — highest-scoring chain reaction of the shift, step by step
+- **Total Insurance Money "Saved"** — presented as a positive corporate metric
+- **Scoring axes display** — all ten axes shown with performance indicators
+- **Viral Impact rating** — how shareable this shift was
+- **Milestones completed this shift** — newly completed milestones highlighted
+- **Persistent trap warning** — if unresolved traps remain, their accumulated PD impact for next shift is displayed clearly
+- **Replay / Continue prompt** — replay this shift, try a different workplace, or return to Main Menu
+
+---
 
 ## Control Schemes
 
 ### Android (Touch)
-- Tap to select hazard → Tap to place
-- Drag to move/rotate objects
+
+- Tap to select hazard from palette → tap or drag to place
+- Drag to move/rotate placed hazard during setup
 - Pinch to zoom / drag to pan camera
-- Swipe up on meter for detailed suspicion breakdown
-- Speed control via large on-screen buttons
+- Swipe up on PD meter for detailed suspicion breakdown
+- Speed controls via large on-screen buttons — thumb-reachable zone
+- All interactive elements minimum 44x44dp
 
 ### PC (Mouse + Keyboard)
-- Click + drag placement
-- Mouse wheel zoom
+
+- Click hazard in palette → click or drag to place
+- Mouse wheel zoom / middle-click drag to pan camera
+- Right-click to cancel placement or deselect
 - Keyboard shortcuts:
-  - Space = Pause/Play
-  - 1–4 = Speed presets
-  - Ctrl+Z = Undo
-  - F = Focus on last major accident
+  - `Space` — Pause / Resume
+  - `1` / `2` / `3` / `4` — Speed presets (1x / 4x / 16x / 64x)
+  - `Ctrl+Z` / `Ctrl+Y` — Undo / Redo (setup phase only)
+  - `R` — Rotate hazard during placement
+  - `Tab` — Open/close hazard palette
+  - `F` — Focus camera on last major incident
+  - `M` — Toggle mini-map overlay
+  - `Escape` — Open shift menu (manual end shift / settings)
+
+---
 
 ## Accessibility
-- Color-blind modes for the deniability meter
-- Scalable UI
-- Optional reduced visual clutter during high chaos
-- Screen reader friendly text for contracts and objectives
+
+- Color-blind modes for the Plausible Deniability Meter — shape and pattern indicators supplement color coding
+- Scalable UI across all screen sizes and resolutions
+- Optional reduced visual clutter mode during high chaos — simplifies particle density without removing gameplay information
+- High-contrast text and icon options
+- Screen reader support for all menu text, progression displays, and debrief information
+
+---
+
+## Conflicts Resolved From Prior Draft
+
+| Element | Resolution |
+|---------|-----------|
+| "Hub / Violator Office" with contract board | Removed — no contract system. Reframed as Main Menu / Workplace Select |
+| Career rank in stats dashboard | Removed — no rank system. Cumulative stars and progression tracks shown instead |
+| "Total victims" in career stats | Replaced with "total incidents" — consistent with confirmed corporate deadpan framing and Save_System.md |
+| Reputation in stats dashboard | Removed — no reputation system |
+| Briefing screen showing contract details and objectives | Replaced — briefing now shows persistent trap state, starting PD, loadout selection, worker roster, variant conditions |
+| "Accept Contract" button | Replaced with "Begin Setup" button |
+| Simulation Phase bottom bar with hazard drop buttons and intervention tools | **Removed entirely** — no mid-simulation placement or intervention confirmed. Setup phase only. Simulation UI is observation-only |
+| "Screen reader friendly text for contracts and objectives" | Updated — contracts and objectives removed from accessibility notes |
