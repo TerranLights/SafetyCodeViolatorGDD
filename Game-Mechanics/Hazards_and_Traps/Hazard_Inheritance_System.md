@@ -173,6 +173,21 @@ HazardBase (parent class)
 | Foundation/pit fencing removed | Medium | Workers walk off the edge |
 | Structural collapse trigger | High | One pin removed, dominoes from there |
 | Crane full spin mode | High | Suspended load swings in full circles |
+| Chemical plant mixing valves cross-connected | High | Combines things that should never combine |
+| Nuclear plant cooling system replaced | High | Coolant replaced with something that isn't coolant |
+| Oil rig blowout preventer software bug | High | Activates randomly after patch |
+| Mine ventilation reversed, exits sealed | High | Simultaneous. Very bad |
+| Logging site bundling wire under tension | High | Snaps, whips across entire area |
+| Shipyard magnetic crane loses polarity | High | Repels metal at full magnet strength |
+| Factory line speed governor removed | High | Production line at 50x normal speed |
+| Demolition charges rearranged | High | Building falls toward workers instead of away |
+| Junkyard car crusher remote activated | High | Anything in range qualifies as a car |
+| Chemical plant pressure relief valves welded shut | High | Every vessel on a timer |
+| Nuclear plant control room displays all show normal | High | Nothing is normal |
+| Factory robotic arm reprogrammed | High | Very fast, very strong, no longer ignoring humans |
+| Oil rig helideck lights rearranged | High | Helicopter lands somewhere that isn't the deck |
+| Shipyard dry dock pumps reversed | High | Floods instead of drains |
+| Mining explosive inventory mislabeled | High | Workers handle wrong items with wrong tools |
 
 ---
 
@@ -209,6 +224,20 @@ HazardBase (parent class)
 | Deep fryer overflow | Medium | Hot oil spreads across floor |
 | Commercial dishwasher flood | Low | Floor becomes extremely slippery |
 | Faulty refrigeration unit | Low | Ammonia leak, workers pass out |
+| Industrial blast chiller set to absolute zero | High | Worker enters walk-in, temperature drops instantly |
+| Dumbwaiter overloaded with something alive | High | Contents disputed |
+| Commercial kitchen ventilation hood becomes flamethrower | High | Grease trap ignites, hood redirects |
+| Brewery fermentation tank over-pressured | High | Cork-pops the entire top off |
+| Industrial meat slicer blade replaced | High | Something faster. The report is brief |
+| Catering van on slope, brakes removed | High | Converted to battering ram |
+| Hydraulic restaurant booth seating | High | Compresses instead of reclining |
+| Soda fountain carbonation at industrial pressure | High | Nozzles become pressure jets |
+| Industrial dishwasher at parts-cleaning temperature | High | Set far beyond food service range |
+| Walk-in freezer CO2 backup vents inward | High | Vents directly into room instead of outside |
+| Grease trap connected to main burner | High | Entire kitchen becomes one large flame |
+| Commercial juicer handles more than fruit | High | If encouraged |
+| Automated food delivery robot speed governor removed | High | No longer food-safe speeds |
+| Grease trap overfilled deliberately | High | Entire floor becomes grease skating rink |
 
 ---
 
@@ -232,19 +261,139 @@ HazardBase (parent class)
 | Ceiling tile falls | Low | Old building, water damage |
 | Heavy printer from shelf | Medium | IT equipment improperly stored |
 | Whiteboard falls from wall | Low | Improperly mounted |
+| Motivational poster avalanche | Medium | Entire hallway of heavy framed posters falls in sequence |
+| Office supplies ordered in industrial quantities | High | Pallet of staplers on third floor. Floor gives way |
+| Suspended ceiling grid drops | High | Tiles, lighting rigs, ventilation ducts, all of it |
 
-#### Environmental — Office/Corporate
+#### Electrical / EMP — Office/Corporate
 
 | Hazard | Suspicion | Notes |
 |--------|-----------|-------|
 | Overloaded power strip | Low | Causes electrical fire |
+| Coffee maker explosion | Low | Ancient, overloaded, inevitable |
+| All USB ports deliver full building voltage | Medium | Discovered one port at a time |
+| Static electricity carpet plus exposed wiring | Medium | Workers become conductors |
+| Faulty fluorescent lighting cascade | Medium | Entire floor's lights explode in sequence like dominoes |
+| Photocopier toner replaced with conductive powder | Medium | Entire machine becomes live on use |
+| EMP device disguised as server rack | High | Knocks out all electronic safety systems simultaneously |
+| Overloaded server room combustion | High | Heat buildup, sprinklers activate, water plus electrical |
+| Tampered building lightning rod | High | Directs strike into building instead of away |
+| Van de Graaff generator in stairwell | High | Workers touching metal railings get launched |
+| Mainframe overload cascade | High | Building's entire electrical system fails in sequence |
+| Tesla coil in break room | High | Arcs between metal objects unpredictably |
+| Wireless charging pads overloaded across floor | High | Generates heat, catches carpet |
+| Smart building system hacked | High | Everything automated turns against workers simultaneously |
+| Defibrillator wall unit tampered | High | Activates automatically when anyone walks past |
+| Electric fence around corporate campus | High | Campus environments only |
+| Power surge protectors replaced with surge inducers | High | Every device connected becomes a hazard |
+| Entire server room UPS battery bank short-circuited | High | Enormous heat and charge simultaneously |
+| Backup generator floods ground floor with exhaust | High | Activated during power failure |
+| Stairwell handrails electrified | High | Discovered on contact |
+| Biometric scanner stores charge | High | Delivers on fingerprint contact. Escalates |
+| Security camera motors overloaded | High | Cameras spin off mounts at speed |
+| Electronic visitor badges contain charge | High | Delivered when tapped to check in |
+
+#### Structural / Architectural — Office/Corporate
+
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
 | Faulty elevator | Medium | Doors open on wrong floor or don't open at all |
 | Loose stair railing | Low | Standard building negligence |
-| Ancient HVAC system | Low | Pumps something unpleasant into ventilation |
 | Revolving door too fast | Medium | Workers cannot exit or enter |
-| Faulty office chair | Low | Collapses or launches occupant |
 | Tangled ethernet cables across floor | Low | Trip hazard at scale |
-| Coffee maker explosion | Low | Ancient, overloaded, inevitable |
+| Load-bearing wall removed during renovation | High | Floor above collapses on timer |
+| Escalator at triple speed in wrong direction | High | Deposits workers somewhere bad |
+| Glass floor panels improperly installed | High | Look solid. Aren't |
+| False ceiling rigged to drop entirely | High | Everything above the drop ceiling comes down |
+| Fire suppression system filled with wrong substance | High | Not water |
+| Elevator cable frayed | High | Drops one floor at a time before going all the way |
+| Mezzanine safety glass replaced with sugar glass | High | Looks identical. Holds nothing |
+| Open plan floor has hidden slope | Medium | Furniture slides slowly toward one wall all simulation |
+| Atrium skylight loosened | High | Falls inward rather than outward |
+| Conference room soundproofing conceals structural damage | Medium | Nobody hears the warning signs |
+| Building window cleaning rig goes rogue | High | Swings into windows from exterior |
+| Raised access floor panels in wrong configuration | High | Entire IT department floor collapses in sections |
+| Fire escape stairs replaced with decorative ones | High | Hold no weight |
+| All office chairs have one-directional wheels | Medium | Only move toward windows |
+| Fire door magnets reversed | High | All fire doors slam open or closed simultaneously |
+
+#### Ventilation — Office/Corporate
+
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Ancient HVAC system | Low | Pumps something unpleasant into ventilation |
+| HVAC pumps laughing gas into specific floor | High | Workers helpless, stumble into things |
+| Ventilation system reversed | High | Pumps exhaust fumes inward |
+| Something released into air handling unit | High | Nature deliberately vague in safety report |
+| Ventilation fan blades loosened | High | Detach at speed, travel through ductwork |
+| Specific office air supply redirected to pure nitrogen | High | Workers lose consciousness without warning |
+| Aerosol cans placed in ventilation return | High | Heat activates, propelled through ductwork |
+| Dry ice dumped into HVAC | High | CO2 builds in lower floors |
+| Industrial fog machine wired into ventilation | High | Entire building fills. Workers completely blind |
+| Ventilation connected to underground garage exhaust | High | Carbon monoxide builds gradually |
+| Allergen concentrate released into meeting room | Medium | Before big presentation. Workers incapacitated |
+| HVAC oscillates between -10C and 50C rapidly | High | Workers dressed for neither extreme |
+| Pollen concentrate in specific meeting room | Medium | Big presentation. Nobody can speak |
+
+#### Security Systems — Office/Corporate
+
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Automated sprinkler connected to motion sensors | High | Activates whenever anyone moves |
+| Security card readers deliver escalating shock | High | Low at first. Builds |
+| Building intercom produces disorienting frequencies | Medium | Workers stumble into things |
+| Automated bollards activate randomly at full speed | High | Parking lot. Full speed |
+| All emergency exit signs point wrong direction | Medium | Discovered during emergency |
+| PA system taken over | High | Plays sounds causing specific archetypes to panic |
+| Keycard doors all unlock simultaneously on fire alarm | High | Including doors that shouldn't |
+| Security robot goes rogue | High | Roomba-scale to humanoid depending on level |
+| Panic button triggers building-wide lockdown | High | Everyone trapped inside with your hazards |
+| CCTV hacked to show wrong feeds | Low | Security guard watching empty hallway |
+
+#### Plumbing / Water — Office/Corporate
+
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Water cooler connected to hot water supply | Medium | Scalding. Immediate |
+| Bathroom pipes rerouted | Medium | Cold tap is boiling. Hot tap is ice cold |
+| All hand dryers overloaded to industrial heat | Medium | Bathroom becomes hazard zone |
+| Sprinkler system activated manually | High | Floods specific floor |
+| Fire suppression filled with flammable substance | High | The report will not use the word "ironic" |
+| Executive washroom fountain contains wrong liquid | Medium | Decorative. Wrong |
+| Entire plumbing pressure-boosted | High | All taps become pressure washers |
+| Urinal cakes replaced with reactive compound | Medium | Reacts with water. Obviously |
+
+#### Corporate-Specific Absurdity — Office/Corporate
+
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Faulty office chair | Low | Collapses or launches occupant |
+| Industrial paper shredder where regular one should be | Medium | Handles anything fed into it |
+| Boardroom table on hidden hydraulics | High | Launches upward during meeting |
+| Projector screen conceals mechanism | Medium | Something behind it |
+| Executive chair with rocket assist | High | CEO tier. Nobody questions it |
+| Motivational poster launches whoever stands beneath it | High | "REACH FOR THE STARS" is literal |
+| Pneumatic document tube at dangerous pressure | High | Canisters become projectiles through walls |
+| Coffee machine connected to wrong supply line | High | Dispenses something industrial |
+| Photocopier filled with flash powder | High | Activates on lid press |
+| Annual performance review triggers trapdoor | High | Results-based activation |
+| Hot desking assigns everyone to same desk | Medium | Forty workers converge on one location |
+| Printer network sends all jobs to one printer | High | Machine overloads, explodes with paper |
+| Corporate team building obstacle course on roof | High | Mandatory attendance |
+| Motivational speaker microphone causes feedback | High | Shatters glass in immediate area |
+| Standing desk locked at maximum height | Medium | Workers can't reach anything, eventually fall |
+| Ergonomic ball chair over-pressured | High | Pops at threshold, launches occupant |
+| Entire office on wheels, AC activates | Medium | Desks begin rolling when building's AC turns on |
+| Mail room pneumatic tubes fire through walls | High | Pressurized to penetrate partition walls |
+| Vending machine contains live animals | High | Workers find out on purchase |
+| CEO's corner office has a moat | High | Nobody questions it. It's his office |
+| Mandatory fire drill during other hazard activation | High | Workers evacuate into outdoor hazards |
+| Company mascot costume contains something | Medium | Something that objects to being in there |
+| Office holiday party punch bowl on wrong tap | Medium | Connected to something that isn't punch |
+| Whiteboard marker replaced with industrial solvent | Medium | Fumes in enclosed meeting room |
+| Corporate rebranding paint never dries | Low | Entire office. Everyone. Permanently |
+| All office chairs only move toward windows | Medium | Listed above, noted specifically here |
+| Office refrigerator under significant pressure | High | Contents unknown. Do not open |
 
 ---
 
@@ -278,6 +427,21 @@ HazardBase (parent class)
 | Faulty medical gas supply | Medium | Wrong gas to wrong location |
 | Centrifuge malfunction | Medium | High-speed rotation failure |
 | Electrical medical equipment fault | Low | Shock hazard near standing water |
+| MRI machine powered beyond limits | High | Pulls any metal object in building toward it |
+| Surgical robot software update | High | Operates with great confidence and no accuracy |
+| Autoclave self-cleaning cycle near workers | High | Steam release catastrophic |
+| Pharmaceutical compounding machine misfills | High | Wrong compound, wrong capsules, industrial scale |
+| Hospital bed hydraulics overloaded | High | Launches occupant to ceiling |
+| Defibrillator charging cycle set to continuous | High | Wall unit becomes electric fence |
+| Medical gas cylinders all opened simultaneously | High | Oxygen-rich environment. Any spark catastrophic |
+| Radiation therapy equipment misdirected | High | Points at waiting room |
+| Hospital laundry industrial press malfunction | High | Handles more than linens |
+| Pneumatic sample transport over-pressured | High | Tubes become rail guns |
+| Laboratory fume hood fan reversed | High | Concentrates fumes inward |
+| Cryogenic storage tank vents liquid nitrogen | High | Across lab floor |
+| Centrifuge with intentional imbalance | High | Shakes itself apart at speed. Shrapnel |
+| Gene sequencer produces wrong results | Medium | Causes existential distress in all nearby workers |
+| Veterinary surgery table hydraulics at maximum | High | Patient and vet both launch |
 
 ---
 
@@ -290,7 +454,7 @@ HazardBase (parent class)
 |--------|-----------|-------|
 | Rat infestation | Low | Storage areas especially |
 | Pigeon in store | Low | Got in through loading bay |
-| Angry customer's dog | Medium | Technically not a worker hazard but here we are |
+| Angry customer's dog | Medium | Technically not a worker hazard. Here we are |
 
 #### Falling / Dropping Things — Retail/Warehouse
 
@@ -299,19 +463,34 @@ HazardBase (parent class)
 | High-shelf stock collapse | Low | Overloaded shelving, one item pulled |
 | Pallet drop from forklift | Medium | Warehouse standard |
 | Display stand collapse | Low | Retail floor hazard |
-| Heavy flat-pack furniture | Medium | Falls from top shelf |
-| Car from display platform | High | Car dealership specific but fits retail broadly |
+| Heavy flat-pack furniture from top shelf | Medium | Falls when browsed |
+| Car from display platform | High | Car dealership. Display platform hydraulics fail |
 
 #### Environmental — Retail/Warehouse
 
 | Hazard | Suspicion | Notes |
 |--------|-----------|-------|
-| Wet floor, no sign | Low | Classic |
+| Wet floor no sign | Low | Classic |
 | Conveyor belt malfunction | Medium | Warehouse/fulfillment specific |
 | Loading dock fall | Medium | Bay door open, no barrier |
 | Shrink wrap machine malfunction | Medium | Wraps something it shouldn't |
 | Automatic door malfunction | Low | Opens and closes at wrong time |
-| Forklift in enclosed space | Medium | Warehouse only, tight corridors |
+| Forklift in enclosed space | Medium | Tight corridors, no margin |
+| Automated warehouse robot reprogrammed | High | Selects workers instead of packages |
+| Conveyor belt speed governor removed | High | Anything on it reaches escape velocity |
+| Pallet wrapper set to wrap anything stationary | High | Worker pauses. Consequences follow |
+| Loading dock leveler hydraulics reversed | High | Launches trucks upward on arrival |
+| Self-checkout extremely literal about unexpected items | High | Unexpected item in bagging area. Very literal |
+| Warehouse vertical carousel runs continuously | High | Anything caught in it goes around |
+| Shopping cart return machine compresses beyond limits | High | Beyond design parameters |
+| Forklift mast at max height in enclosed space | High | Punches through ceiling |
+| Retail muzak converted to sonic weapon frequencies | High | Affects entire floor |
+| Supermarket pricing gun at industrial staple pressure | High | No longer a pricing gun |
+| Display mannequins replaced with something that moves | High | Nature of replacement TBD |
+| Car dealership hydraulic lift remote activated | High | Car descends onto whoever is beneath it |
+| Warehouse fire suppression at industrial concentration | High | Entire floor chest-deep in foam in seconds |
+| Retail escalator handrails electrified | High | Discovered on contact |
+| Stock room compactor activated remotely | High | Wrong contents. Compacts anyway |
 
 ---
 
@@ -325,7 +504,7 @@ HazardBase (parent class)
 | Escaped zoo animal | High | Zoo specific but fits entertainment broadly |
 | Circus animal loose | High | Lion, tiger, elephant, bear |
 | Angry performing animal | Medium | Done with this. Done |
-| Pelican in concession area | Low | Stadium/carnival coastal locations |
+| Pelican in concession area | Low | Coastal stadium/carnival locations |
 | Angry turkey in parking lot | Low | Stadium events especially |
 
 #### Falling / Dropping Things — Entertainment
@@ -334,9 +513,9 @@ HazardBase (parent class)
 |--------|-----------|-------|
 | Stage lighting rig | Medium | Movie studio, stadium, circus |
 | Rigging collapse | Medium | Any entertainment venue with overhead equipment |
-| Scoreboard falls | High | Stadium specific but fits entertainment |
+| Scoreboard falls | High | Stadium. Very large. Very heavy |
 | Prop falls from height | Low | Movie studio especially |
-| Circus trapeze apparatus | Medium | Improperly secured |
+| Circus trapeze apparatus falls | Medium | Improperly secured |
 
 #### Environmental — Entertainment
 
@@ -346,8 +525,22 @@ HazardBase (parent class)
 | Pyrotechnics malfunction | High | Stadium, circus, movie studio |
 | Stage trapdoor malfunction | Medium | Opens at wrong time |
 | Faulty casino machine | Low | Electrical, mechanical, or both |
-| Crowd crush trigger | High | Stadium events — requires careful tone handling |
 | Film set practical effect failure | Medium | Explosion, fire, vehicle |
+| Casino card shuffler at projectile velocity | High | Modified to shuffle extremely fast |
+| Amusement park ride launch system reprogrammed | High | Launches without track |
+| Stadium floodlights overloaded | High | Explode in sequence across entire venue |
+| Circus cannon over-charged | High | Range significantly increased |
+| Movie studio pyrotechnics triggered remotely | High | During non-stunt scene |
+| Zoo enclosure environmental controls reversed | High | Tropical gets arctic. Arctic gets tropical. All doors open |
+| Casino chip sorting machine at industrial speed | High | Handles more than chips |
+| Stadium PA produces brown note frequency | High | Affects entire crowd and staff |
+| Circus high wire tensioned beyond breaking point | High | Snaps when weight applied. Whips both directions |
+| Movie studio car stunt vehicle remote controlled | High | No driver |
+| Amusement park haunted house set to real | High | Practical effects are now actual effects |
+| Stadium hot dog cart pressurized | Medium | Condiment cannon |
+| Casino money counter modified | High | Handles more than money |
+| Circus clown car structural integrity compromised | High | Collapses when fully loaded |
+| Film set entire lighting grid drops simultaneously | High | All of it |
 
 ---
 
@@ -359,7 +552,7 @@ HazardBase (parent class)
 | Hazard | Suspicion | Notes |
 |--------|-----------|-------|
 | Polar bear | High | Ski resort especially |
-| Avalanche-triggered wildlife | High | Ski resort — animals fleeing the slope |
+| Avalanche-triggered wildlife | High | Animals fleeing the slope |
 | Ghost animal | Medium | Haunted house — spectral version of any animal |
 
 #### Falling / Dropping Things — Extreme/Wildcard
@@ -378,10 +571,25 @@ HazardBase (parent class)
 | Oxygen supply tampered | High | Space station and submarine |
 | Avalanche trigger | High | Ski resort |
 | Embalming fluid spill | Medium | Funeral home |
-| Haunted house practical effect gone wrong | Low | Haunted house — hard to distinguish from the act |
+| Haunted house practical effect gone wrong | Low | Hard to distinguish from the act |
 | Toy scattered across floor | Low | Daycare — trip hazard at industrial scale |
 | Zero gravity malfunction | High | Space station |
 | Periscope malfunction | Medium | Submarine |
+| Space station attitude thrusters all fire simultaneously | High | Station spins. Everything not bolted down becomes projectile |
+| Submarine ballast tanks all blow simultaneously | High | Uncontrolled ascent. Decompression event |
+| Ski resort snow cannon network all activate | High | Resort buried in minutes |
+| Funeral home embalming pump wrong supply, wrong direction | High | Industrial pressure |
+| Haunted house emergency lighting replaced with darkness | High | Total blackout during peak chaos |
+| Daycare nap time machine produces infrasonic frequency | High | Staff fall asleep simultaneously |
+| Space station solar panels refocused | High | Concentrated solar beam enters station |
+| Submarine torpedo tube pressurized without torpedo | High | Pressure wave propagates through hull |
+| Ski resort all chairlift chairs detached simultaneously | High | Chairs become projectiles downslope |
+| Funeral home viewing room floor waxed with industrial compound | High | Completely frictionless |
+| Haunted house fog system connected to industrial chemical supplier | High | Not fog juice |
+| Daycare ball pit contains something at the bottom | High | We don't need to say what |
+| Space station food rehydration system connected to fuel line | High | The report will be brief |
+| Submarine sonar amplified to hull resonance frequency | High | Structural consequences |
+| Ski resort avalanche control explosives aimed at lodge | High | Instead of slope |
 
 ---
 
@@ -406,7 +614,6 @@ HazardBase (parent class)
 | Hazard | Suspicion | Notes |
 |--------|-----------|-------|
 | Printer paper avalanche | Low | Filing room collapses outward |
-| Motivational poster falls | Low | Heavy frame, poorly mounted |
 | Ergonomic chair launches | Medium | Spring mechanism tampered |
 | Water cooler sabotaged | Low | Floods immediate area |
 | Fire drill at wrong moment | Medium | Everyone evacuates into something outside |
@@ -440,14 +647,14 @@ HazardBase (parent class)
 |--------|-----------|-------|
 | Coolant leak | Medium | Floor becomes extremely slippery and cold |
 | Control rod tampered | High | The report will not say what happened next |
-| Radiation warning alarm tampered | Low | Silenced. Workers don't evacuate |
+| Radiation warning alarm silenced | Low | Workers don't evacuate |
 | Geiger counter gives wrong readings | Low | Workers go somewhere they shouldn't |
 
 ### Zoo
 | Hazard | Suspicion | Notes |
 |--------|-----------|-------|
 | Enclosure latch left open | Medium | One specific animal now free |
-| Feeding time wrong exhibit | High | Wrong food in wrong enclosure triggers wrong animal |
+| Feeding time wrong exhibit | High | Wrong food triggers wrong animal |
 | Petting zoo animal goes feral | Medium | It was always going to happen |
 | Giraffe loose in staff area | High | Too tall for most indoor spaces. Very confused |
 
@@ -489,7 +696,7 @@ HazardBase (parent class)
 |--------|-----------|-------|
 | Ski lift stops mid-run | Medium | Workers stranded, then dropped |
 | Snow cannon aimed wrong | Medium | Covers staff entrance in three seconds |
-| Avalanche trigger | High | Listed above, noted here for specificity |
+| Avalanche trigger | High | Noted here specifically for this environment |
 | Snowplow path altered | Medium | Takes unexpected route through staff area |
 
 ### Funeral Home
@@ -498,7 +705,7 @@ HazardBase (parent class)
 | Wrong body in wrong casket | Low | Administrative. Causes significant distress |
 | Hearse brakes tampered | Medium | Rolls. Downhill. With occupant |
 | Cremation oven door malfunction | High | Opens at wrong time |
-| Embalming equipment misfires | Medium | Listed above, noted here specifically |
+| Embalming equipment misfires | Medium | Noted here specifically |
 
 ### Circus
 | Hazard | Suspicion | Notes |
@@ -522,7 +729,7 @@ HazardBase (parent class)
 | Experiment gets out of containment | High | Nature of experiment: TBD |
 | Chemical reaction chain | Medium | One mislabeled bottle starts it |
 | Centrifuge launches sample | Medium | High speed, wrong trajectory |
-| Something in the fridge that shouldn't be | Low | Nobody labeled it. Nobody should open it |
+| Something in the fridge | Low | Nobody labeled it. Nobody should open it |
 
 ### Oil Rig
 | Hazard | Suspicion | Notes |
@@ -564,6 +771,126 @@ HazardBase (parent class)
 | Camera crane swings into crew | Medium | Operator error. Allegedly |
 | Green screen hides actual drop | Medium | Worker walks through what looks like a wall |
 
+### Factory
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Assembly line speed at maximum | High | Products become projectiles |
+| Industrial press wrong timing | High | Closes at wrong moment |
+| Robotic arm reprogrammed | High | Listed above, specific here |
+| Quality control laser misdirected | High | Industrial laser. Points at workers |
+
+### Chemical Plant
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Mixing valves cross-connected | High | Listed above, specific here |
+| Pressure relief valves welded shut | High | Every vessel on a timer |
+| Chemical shower triggered wrong | Medium | Emergency safety shower activates wrong chemical |
+| Storage tank integrity compromised | High | One tank. Then the next |
+
+### Logging Site
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Log flume redirected toward workers | High | Logs move fast. Workers don't move faster |
+| Chainsaw remote triggered | High | Operating on its own |
+| Tree felling direction altered | High | Falls toward workers instead of away |
+| Log bundling wire under tension snaps | High | Listed above, specific here |
+
+### Demolition Site
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Charges rearranged | High | Building falls wrong direction |
+| Wrecking ball reprogrammed | High | Targets something other than the building |
+| Debris chute aimed wrong | Medium | Deposits debris somewhere occupied |
+| Structural survey deliberately wrong | Low | Workers enter unsafe section |
+
+### Junkyard
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Crusher remote activated | High | Listed above, specific here |
+| Compacted car stack unstable | High | Stack collapses when disturbed |
+| Electromagnetic crane wrong target | High | Lifts workers instead of cars |
+| Hazardous waste barrel mislabeled | Low | Standard junkyard administrative failure |
+
+### Sports Stadium
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Scoreboard descent | High | Listed above, specific here |
+| Field sprinkler system at pressure | High | Nozzles become jets |
+| Retractable roof malfunction | High | Closes or opens at wrong time, wrong speed |
+| Goalpost collapses | Medium | Improperly secured |
+
+### Hotel
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Revolving door at maximum speed | High | Listed above, specific here for hotel lobby |
+| Laundry chute misdirected | Medium | Deposits staff somewhere |
+| Room service cart rigged | Low | Contents disputed |
+| Swimming pool chemical balance wrong | Medium | Staff discover during maintenance |
+
+### Brewery / Distillery
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Fermentation tank over-pressured | High | Listed above, specific here |
+| Still explosion | High | Pressure builds in distillation apparatus |
+| Barrel stack collapses | Medium | One barrel pulled, dominoes |
+| Tasting room connected to wrong barrel | Low | Contents significantly stronger than labeled |
+
+### Fast Food
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Drive-through barrier at full speed | High | Arm comes down on vehicles |
+| Ice cream machine finally explained | High | What is in there. We find out |
+| Ball pit in play area contains something | High | Same energy as daycare. Different context |
+| Soft drink dispenser pressurized | High | Fountain becomes industrial nozzle |
+
+### Pharmaceutical Plant
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Compounding machine misfills at scale | High | Listed above, specific here |
+| Tablet press wrong compound | High | Produces something not in the formulary |
+| Clean room air supply wrong | High | Positive pressure room goes negative |
+| Temperature-controlled storage fails | Medium | Contents become unpredictable |
+
+### Veterinary Clinic
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Angry large animal appointment | High | Listed above, specific here |
+| Sedation dose miscalculated | Medium | Wrong direction |
+| Surgical laser misdirected | High | Veterinary laser. Points at staff |
+| Exotic animal containment failure | High | The species is not disclosed in the report |
+
+### Catering Company
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Van loaded wrong, center of gravity off | High | Turns corner, consequences follow |
+| Industrial chafing dish fuel ignites | Medium | Under wrong container |
+| Catering lift fails at event venue | High | Full load. Descends |
+| Wrong menu delivered to wrong event | Low | Severe allergy implications. The report is clinical |
+
+### Government Building
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Security screening equipment reversed | High | Sends items back at speed |
+| Parliamentary/council chamber trapdoor | High | Installed by previous administration |
+| Document destruction machine handles more | High | More than documents |
+| Official vehicle fleet brakes tampered | High | Entire motor pool |
+
+### Law Firm
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Filing room structural failure | High | Weight of case files finally wins |
+| Conference call system feedback | Medium | Specific frequency. Shatters glassware |
+| Evidence room containment failure | High | Nature of evidence: TBD |
+| Legal library bookshelf domino | Medium | One volume pulled, all fall |
+
+### Call Center
+| Hazard | Suspicion | Notes |
+|--------|-----------|-------|
+| Headset delivers charge on call connect | High | Every incoming call |
+| Server room overheats into floor | High | Heat rises through raised floor into call floor |
+| Chair adjustment lever pressurized | Medium | Launches occupant |
+| Hold music frequency causes disorientation | Medium | Workers stumble, headsets tangled |
+
 ---
 
 ## IMPLEMENTATION NOTES
@@ -573,6 +900,7 @@ HazardBase (parent class)
 - Tier 3 hazards are manually assigned to their single environment only
 - Suspicion tiers (Low/Medium/High) are properties of each hazard class and feed directly into the PD meter calculation
 - Animal hazards across all tiers share the ActiveHazard behavior (semi-random movement, can trigger other traps, can interfere with inspector)
+- High-danger hazards across all categories should now be represented roughly equally across environment types — no setting should feel significantly safer than any other to design for
 
 ---
 
