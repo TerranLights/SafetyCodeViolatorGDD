@@ -107,7 +107,7 @@ Full unlock table: `Progression_and_Scoring.md`
 
 | Element | Resolution |
 |---------|-----------|
-| Hazard categories (Environmental, Equipment Sabotage, Workflow, Psychological) | Replaced — hazards are now organised by availability tier (Universal / Cross-Environment / Environment-Specific) and suspicion tier (Low / Medium / High) |
+| Hazard categories (Environmental, Equipment Sabotage, Workflow, Psychological) | Replaced — hazards are now organized by availability tier (Universal / Cross-Environment / Environment-Specific) and suspicion tier (Low / Medium / High) |
 | "Some can be dropped mid-simulation as emergency interventions" | Removed — Setup Phase only. No mid-simulation placement confirmed |
 | "Unlock tools as you complete contracts" | Replaced — hazard pool unlocks via cumulative star progression, no contract system |
 | "Lethality" and "Cover Story Strength" as hazard properties | Replaced — confirmed properties are Suspicion Tier, Trigger Type, Combo Potential, and Active/Passive |

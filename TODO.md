@@ -15,26 +15,20 @@
 
 ---
 
-## TIER 2 — Open Design Decisions
+## TIER 2 — Open Design Decisions ✓ MOSTLY COMPLETE
 *Questions flagged in the GDD that need a confirmed answer before implementation can proceed on those systems.*
 
-- [ ] **Undo/Redo during setup phase** — Listed in Core_Design.md as unconfirmed. Present in early drafts and described in UI_and_Controls.md as a confirmed feature. Strong case for yes — needs locking in or out.
+- [x] **Undo/Redo during setup phase** — Confirmed. Full undo/redo stack for all setup phase placement.
+- [x] **"Restart Shift with same setup" option** — Confirmed. Available from debrief screen; same trap layout pre-loaded, plays as a normal shift.
+- [x] **Violator Hub between shifts** — Resolved. No hub, no player sprite. Workplace select is a category-based menu (category → configuration sub-menu).
+- [x] **Worker health/resilience as a per-worker attribute** — Confirmed for v1. Per-worker Health/Resilience attribute added.
+- [x] **Controller support on PC** — Deferred. To be decided once game interface design is finalized.
+- [x] **New Game+** — Cut. Not in scope for v1.
+- [x] **Android cloud saves** — Confirmed. Google Play Games cloud sync.
 
-- [ ] **"Restart Shift with same setup" option** — QoL feature: replay a shift with identical trap placement. Not confirmed. Low implementation cost, high player value.
+- [ ] **Ghost types** — `Level_Variants.md` lists four ghost types (Standard, Poltergeist, Phantom Foreman, The Whistler) but marks them all TBD. Moved to Tier 4 — save for later design.
 
-- [ ] **Violator Hub between shifts** — Currently player goes straight to workplace select. Early drafts had a hub space. Unconfirmed either way — needs a decision so the main menu scene can be properly scoped.
-
-- [ ] **Worker health/resilience as a per-worker attribute** — Flagged as unconfirmed for v1. Affects how archetypes like The Lucky One and The Unlucky One behave mechanically. Needs a decision.
-
-- [ ] **Ghost types** — `Level_Variants.md` lists four ghost types (Standard, Poltergeist, Phantom Foreman, The Whistler) but marks them all TBD. Needs expanding into the same detail level as worker archetypes.
-
-- [ ] **Cosmetic unlock thresholds (Track 4)** — Progression track 4 exists and the cosmetic categories are listed, but the specific star thresholds for each unlock are not defined. Needs filling in once content is finalised.
-
-- [ ] **Controller support on PC** — Mentioned as secondary target in Platform_and_Technical.md but unconfirmed. Affects input architecture decisions.
-
-- [ ] **New Game+** — Flagged in Level_Progression.md as unconfirmed. Low priority for v1 but worth deciding so it doesn't get accidentally designed around.
-
-- [ ] **Android cloud saves** — Local saves confirmed. Google Play Games cloud sync is TBD.
+- [ ] **Cosmetic unlock thresholds (Track 4)** — Progression track 4 exists and cosmetic categories are listed, but specific star thresholds are not defined. In progress — see below.
 
 ---
 

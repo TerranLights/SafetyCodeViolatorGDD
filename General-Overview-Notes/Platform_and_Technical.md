@@ -213,7 +213,7 @@ Steam Workshop support is planned for the full PC version. Android mod support i
 | Godot version (4.3 vs latest stable)? | Use latest stable Godot 4.x at time of development start |
 | Multiplayer / co-op? | Not planned but architecture shouldn't preclude it |
 | iOS support? | Not in current plan. Could be added post-launch if Android succeeds |
-| Cloud saves on Android (Google Play Games)? | Local saves confirmed. Cloud sync TBD |
+| Cloud saves on Android (Google Play Games)? | **Confirmed** — Google Play Games cloud sync. See `Save_System.md` |
 
 ---
 

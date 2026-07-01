@@ -29,9 +29,8 @@ Every worker has the following base attributes regardless of archetype:
 | **Archetype** | Primary personality type from roster below. Defines movement, reaction, and interaction behavior |
 | **Job Role** | Workplace-flavored role label (e.g. Intern, Crane Operator, Sous Chef). Cosmetic but affects daily routine |
 | **Suspicion Sensitivity** | How quickly this worker notices sabotage. Varies by archetype — Paranoid One is highest, Oblivious One is lowest |
+| **Health / Resilience** | How many incidents a worker can survive before being put out of action for the shift. Varies by archetype — Lucky One has high resilience, Unlucky One has low |
 | **Daily Routine** | Preset sequence of activities this worker follows during a shift — see Daily Routines section below |
-
-*Note: A health/resilience system has not been confirmed for v1. To be decided during implementation phase.*
 
 ---
 
@@ -212,7 +211,7 @@ The Unlucky One, The Lucky One, The Conspiracy Theorist, The Sleepwalker, The He
 | Element | Resolution |
 |---------|-----------|
 | Named specific workers (Kevin, Karen, Chad) | Removed as persistent characters — reclassified as archetype flavor inspiration in individual level documents |
-| Health & Resilience as confirmed attribute | Flagged as unconfirmed — noted in Core Worker Attributes as TBD for implementation phase |
+| Health & Resilience as confirmed attribute | **Confirmed for v1** — per-worker Health/Resilience attribute added to Core Worker Attributes table |
 | "Later levels: distinct characters with backstories" | Removed — conflicts with archetype system and all-workplaces-available-from-start design |
 | "Special Problem Employees" | Absorbed into Manager/special archetype system and Health and Safety Rep |
 | "Early levels: generic workers" | Removed — conflicts with all workplaces available from start |

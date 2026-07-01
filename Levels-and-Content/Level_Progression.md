@@ -29,10 +29,10 @@
 
 | Property | Value |
 |----------|-------|
-| Available workplaces | All 40+ from the start |
-| Default first workplace | Construction Site |
+| Available configurations | All 40+ across all categories, from the start |
+| Default first configuration | Construction Site |
 | After first shift | Player chooses freely what to do next |
-| Progression | Cumulative stars across all workplaces drive all four tracks |
+| Progression | Cumulative stars across all configurations drive all four tracks |
 
 ---
 
@@ -54,8 +54,9 @@ Three gameplay tracks plus one cosmetic track, all driven by cumulative stars. F
 
 ```
 Player opens game
-└── Selects a workplace from the full roster
-    └── Reviews current state (persistent traps, starting PD if any)
+└── Selects a category from the workplace select screen
+    └── Selects a configuration from that category's sub-menu
+        └── Reviews current state (persistent traps, starting PD if any)
         └── Selects loadout from available hazard pool
             └── Setup Phase — places hazards, no time limit
                 └── Simulation Phase — watches shift unfold

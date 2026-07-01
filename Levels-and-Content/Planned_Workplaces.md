@@ -1,4 +1,4 @@
-# Planned Workplace Types
+# Planned Workplace Configurations
 
 **Safety Code Violator GDD**
 *Full version / paid version content. All workplaces listed are confirmed for inclusion.*
@@ -7,13 +7,20 @@
 
 ## Overview
 
-The full version of Safety Code Violator includes 40+ distinct workplace environments, each with their own themed zones, worker types, and trap sets — all built on the same underlying game engine and modular systems established by the Construction Site template.
+The full version of Safety Code Violator includes 40+ distinct workplace **configurations** organized into **categories**. The workplace select screen presents categories at the top level; selecting a category opens a sub-menu listing all configurations within it.
 
-The demo (Steam) / free (Google Play) version includes the Construction Site only.
+Each configuration is a fully distinct map with its own:
+- Layout, zones, and trap slot positions
+- Worker type mix and crew size
+- Environment-specific hazards
+- 15-milestone Milestone Tree
+- Strategic notes and emergent combo opportunities
+
+All configurations are available from the start in the full version — no unlock gates. The demo (Steam) / free (Google Play) version includes the Construction Site configuration only.
 
 ---
 
-## Industrial / Outdoor
+## Category: Industrial / Outdoor
 
 - Construction Site *(demo/free version)*
 - Factory Floor
@@ -28,7 +35,7 @@ The demo (Steam) / free (Google Play) version includes the Construction Site onl
 
 ---
 
-## Office / Corporate
+## Category: Office / Corporate
 
 - Office Building
 - Call Center
@@ -38,7 +45,7 @@ The demo (Steam) / free (Google Play) version includes the Construction Site onl
 
 ---
 
-## Food / Hospitality
+## Category: Food / Hospitality
 
 - Restaurant / Kitchen
 - Fast Food Joint
@@ -48,7 +55,7 @@ The demo (Steam) / free (Google Play) version includes the Construction Site onl
 
 ---
 
-## Retail / Warehouse
+## Category: Retail / Warehouse
 
 - Retail Store
 - Warehouse / Fulfillment Center
@@ -57,7 +64,7 @@ The demo (Steam) / free (Google Play) version includes the Construction Site onl
 
 ---
 
-## Medical / Science
+## Category: Medical / Science
 
 - Hospital
 - Laboratory
@@ -66,7 +73,7 @@ The demo (Steam) / free (Google Play) version includes the Construction Site onl
 
 ---
 
-## Entertainment / Public
+## Category: Entertainment / Public
 
 - Carnival / Amusement Park
 - Movie Studio / Film Set
@@ -77,7 +84,7 @@ The demo (Steam) / free (Google Play) version includes the Construction Site onl
 
 ---
 
-## Unusual / Wildcard
+## Category: Unusual / Wildcard
 
 - Space Station
 - Submarine
@@ -90,11 +97,11 @@ The demo (Steam) / free (Google Play) version includes the Construction Site onl
 
 ## Design Notes
 
-- Each workplace is a new map with themed traps slotted into the shared modular framework
-- Worker archetypes remain consistent across all workplaces
+- Each configuration is a new map with themed traps slotted into the shared modular framework
+- Worker archetypes remain consistent across all configurations
 - The Safety Inspector behaves identically in all environments
 - The Plausible Deniability meter and scoring system are universal
-- New workplace-specific trap tiers (low/medium/high suspicion) are designed per environment
+- Environment-specific hazards (Tier 3) are unique per configuration and inherit from their category's shared pool where applicable
 
 ---
 

@@ -19,14 +19,22 @@
 
 ### 1. Main Menu / Workplace Select
 
-The primary between-shifts hub. Player returns here after every debrief.
+The primary between-shifts screen. Player returns here after every debrief. No hub space — no player character sprite.
 
-- **Workplace roster** — all 40+ environments displayed, all available from the start in the full version
-- **Per-workplace status** — Visited / Completed / In Progress / Mastered, best star rating, milestone progress
-- **Cumulative star total** — always visible, drives all four progression tracks
-- **Progression track display** — current loadout size, placement budget, per-type limit, hazard pool status
-- **Cosmetic unlock access** — browse and equip unlocked cosmetics (audio packs, visual flair, etc.)
-- **Highlight reel archive** — browse saved debrief highlights from previous shifts
+**Persistent top bar (always visible):**
+- Cumulative star total — drives all four progression tracks
+- Progression track display — current loadout size, placement budget, per-type limit, hazard pool status
+- Access to cosmetics and highlight reel archive
+
+**Category view (top level):**
+- Workplace categories listed (Office, Construction Site, Theme Park, etc.)
+- Per-category indicator — how many configurations visited, completed, mastered
+- All categories available from the start in the full version
+
+**Configuration sub-menu (on selecting a category):**
+- All configurations within that category listed with individual status — Visited / Completed / In Progress / Mastered
+- Best star rating and milestone progress per configuration
+- Select a configuration to proceed to Shift Briefing
 
 ---
 
@@ -93,7 +101,7 @@ Fires after any valid shift end state. Full corporate deadpan presentation.
 - **Viral Impact rating** — how shareable this shift was
 - **Milestones completed this shift** — newly completed milestones highlighted
 - **Persistent trap warning** — if unresolved traps remain, their accumulated PD impact for next shift is displayed clearly
-- **Replay / Continue prompt** — replay this shift, try a different workplace, or return to Main Menu
+- **Replay / Continue prompt** — replay this shift, **restart with same setup** (same trap layout pre-loaded, plays as a normal shift), try a different workplace, or return to Main Menu
 
 ---
 
@@ -139,7 +147,7 @@ Fires after any valid shift end state. Full corporate deadpan presentation.
 
 | Element | Resolution |
 |---------|-----------|
-| "Hub / Violator Office" with contract board | Removed — no contract system. Reframed as Main Menu / Workplace Select |
+| "Hub / Violator Office" with contract board | Removed — no contract system, no hub space, no player sprite. Replaced with category-based workplace select (category → configuration sub-menu) |
 | Career rank in stats dashboard | Removed — no rank system. Cumulative stars and progression tracks shown instead |
 | "Total victims" in career stats | Replaced with "total incidents" — consistent with confirmed corporate deadpan framing and Save_System.md |
 | Reputation in stats dashboard | Removed — no reputation system |

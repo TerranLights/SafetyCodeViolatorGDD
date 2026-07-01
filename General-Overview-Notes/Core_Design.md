@@ -171,7 +171,7 @@ Darkly comedic, satirical, and absurd. The game is gloriously, unapologetically 
 - **Snap-to-grid** toggle — on by default, toggleable for free placement
 - **Rotation support** for directional hazards (conveyor belts, ladders, shelves, etc.)
 - **Validity feedback:** Green = valid placement / Yellow = high suspicion risk / Red = invalid or obstructed
-- **Undo/Redo stack** — important for creative iteration during setup (to be confirmed during implementation)
+- **Undo/Redo stack** — full undo/redo for all hazard placement during setup phase
 - **Budget counter** always visible with live remaining count
 - **Per-type counter** visible showing remaining instances of each selected hazard type
 
@@ -183,12 +183,7 @@ Darkly comedic, satirical, and absurd. The game is gloriously, unapologetically 
 
 | Question | Context |
 |----------|---------|
-| Undo/Redo during setup phase? | Present in early drafts, not confirmed. Very useful for creative placement |
-| "Restart Shift with same setup" option? | Replay with identical trap placement. QoL feature, not confirmed |
-| Controller support on PC? | Mentioned in platform notes, not confirmed |
-| Violator Hub between shifts? | Early drafts mentioned a central hub. Not confirmed — currently player goes straight to workplace select |
-| Health/resilience as per-worker attribute? | Mentioned in worker AI draft, not confirmed for v1 |
-| New Game+? | Mentioned in level progression draft, not confirmed |
+| Controller support on PC? | Deferred — to be decided once game interface design is finalized |
 
 ---
 
@@ -198,7 +193,12 @@ Darkly comedic, satirical, and absurd. The game is gloriously, unapologetically 
 |---------|-----------|
 | Contract system throughout | Removed — sandbox only, no prescribed goals |
 | Mid-simulation intervention (drop hazards, emergency repairs) | Removed — setup phase only, confirmed |
-| "Violator Hub" central location | Not confirmed — flagged as open question |
+| "Violator Hub" central location | **Resolved** — no hub space, no player sprite. Workplace select is a category-based menu (category → configuration sub-menu). See `UI_and_Controls.md` |
+| Undo/Redo during setup | **Confirmed** — full undo/redo stack for all setup phase placement |
+| "Restart Shift with same setup" | **Confirmed** — available from the debrief screen. Same trap layout pre-loaded, plays as a normal shift |
+| Worker health/resilience for v1 | **Confirmed** — per-worker Health/Resilience attribute added to Worker Archetypes |
+| New Game+ | **Cut** — not in scope for v1 |
+| Android cloud saves | **Confirmed** — Google Play Games cloud sync. See `Save_System.md` |
 | Named specific workers (Kevin, Karen, Chad) | Archetype flavor only, not persistent named characters |
 | Rank progression (Junior/Skilled/Master Violator) | Removed — no rank system |
 | 2.5D angled view camera | Replaced — confirmed isometric top-down |

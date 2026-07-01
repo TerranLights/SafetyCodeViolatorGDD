@@ -13,6 +13,7 @@ A robust cross-platform save system that works seamlessly on both Steam and Andr
 - Never lose player progress
 - Resume instantly on Android after app close
 - Sync seamlessly across PC sessions via Steam Cloud
+- Sync on Android via Google Play Games
 - Support modding via readable JSON format
 
 ---
@@ -115,6 +116,7 @@ saves/
 - Compressed JSON where possible to reduce file sizes
 - Automatic backup to device storage for corruption recovery
 - Resume from active_shift.json on app reopen
+- **Google Play Games cloud sync** — profile.json and workplace saves synced, matching Steam Cloud scope. active_shift.json and highlights not synced.
 
 ---
 
@@ -155,6 +157,11 @@ JSON format enables export and import of save files. Primarily useful for:
 - Syncs profile.json and workplace saves automatically
 - Does not sync active_shift.json — in-progress shifts are local only
 - Does not sync highlights — these can be large and are not progression-critical
+
+**Cloud Sync (Android — Google Play Games)**
+- Syncs profile.json and workplace saves, matching Steam Cloud scope
+- Does not sync active_shift.json or highlights
+- Conflict resolution: most recent timestamp wins
 
 ---
 

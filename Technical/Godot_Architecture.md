@@ -6,7 +6,7 @@
 ## Overall Architecture
 
 ### Scene Structure
-- **Main Menu / Workplace Select** (`MainMenu.tscn`) — Workplace selection screen, progression display, unlocks. *Note: whether a dedicated "Violator Hub" exists as a between-shifts space is an open design question — see `Core_Design.md`. At minimum this scene covers the workplace select screen.*
+- **Main Menu / Workplace Select** (`MainMenu.tscn`) — Category-based workplace selection: top-level category screen → configuration sub-menu → Shift Briefing. No hub space — no player character sprite exists. Also hosts progression display, cumulative stars, cosmetic access, and highlight reel archive.
 - **Level Template** (`LevelTemplate.tscn`) — Reusable base for every workplace
 - **Worker Scene** (`Worker.tscn`) — Instanced + customized via scripts
 - **Hazard System** (`HazardManager.tscn` + `Hazard.tscn`)
@@ -54,7 +54,7 @@
 
 | Element | Resolution |
 |---------|-----------|
-| `ViolatorHub.tscn` — "Menu, contract board, unlocks" | Renamed to `MainMenu.tscn`. "Contract board" removed — no contract system. Violator Hub as a concept is an open design question; see `Core_Design.md` |
+| `ViolatorHub.tscn` — "Menu, contract board, unlocks" | Renamed to `MainMenu.tscn`. No contract system, no hub space, no player sprite. Workplace select is category-based: category → configuration sub-menu. |
 | `resources/contracts/` in folder structure | Renamed to `resources/workplaces/` — consistent with save system structure and confirmed design |
 | No shift lifecycle singleton | Added `ShiftManager.gd` to cover the three-phase shift structure, end state detection, and persistent trap handoff |
 | Singletons underdescribed | Expanded all singleton descriptions to reflect confirmed system responsibilities |
