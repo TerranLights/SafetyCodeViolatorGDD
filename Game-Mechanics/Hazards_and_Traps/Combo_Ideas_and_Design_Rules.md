@@ -52,7 +52,7 @@ A single High Suspicion hazard is risky and scores moderately. Three Low Suspici
 Every hazard trigger needs a distinct, punchy audio-visual moment. Chain reactions should feel like they're building — each link audibly and visually distinct from the last. The debrief highlight reel exists specifically to replay the best moments. If a hazard triggering doesn't feel satisfying in isolation, it won't feel satisfying in a chain.
 
 **Rule 5 — Every hazard must have a clear armed/triggered visual state**
-Players need to know at a glance whether their traps are still active. Full visual state requirements in Art_Bible_FINAL.md.
+Players need to know at a glance whether their traps are still active. Full visual state requirements in Art_Bible.md.
 
 **Rule 6 — Animals follow their own logic**
 Animal hazards are active rather than passive — they move semi-randomly and can trigger other traps, interfere with the inspector, and create emergent chain reactions the player didn't plan. This is a feature. Design animal placement around probability rather than certainty.

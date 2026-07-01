@@ -9,10 +9,10 @@ A darkly comedic real-time simulation game where you play as a corporate "Safety
 Turn normal workplaces (offices, factories, restaurants, construction sites, etc.) into chaotic disaster zones — all while keeping your **Plausible Deniability Meter** from alerting investigators.
 
 ### Gameplay Loop (15–30 minute sessions)
-- **Briefing**: Receive a shady corporate contract with suspicious objectives.
-- **Setup Phase**: Place hazards, modify equipment, alter workflows, and prepare the perfect storm.
+- **Briefing**: Select your workplace, review the current state, and choose your hazard loadout.
+- **Setup Phase**: Place hazards, sabotage equipment, and prepare the perfect storm — no time limit.
 - **Simulation Phase**: Watch workers go about their day as your traps activate in glorious real-time chain reactions.
-- **Debrief**: Review the carnage, score your creativity, body count, insurance fraud success, and viral impact.
+- **Debrief**: Review the carnage, score your creativity, plausible deniability, and viral impact.
 
 ### Key Features
 - Real-time physics-based chaos with speed controls (1x → 64x)
@@ -35,4 +35,4 @@ Turn normal workplaces (offices, factories, restaurants, construction sites, etc
 
 **"Improving workplace safety... one tragic accident at a time."**
 
-*Currently in early design phase. Details expanding daily.*
+*GDD actively in development.*
