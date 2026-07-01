@@ -21,7 +21,7 @@ Steam (Windows/Linux) and Android are treated as primary targets. Neither is an 
 
 ## Engine
 
-**Godot 4.x** (4.3 or later for best mobile + desktop performance)
+**Godot 4.7** (current stable release)
 
 Godot is the confirmed engine for all platforms. Key reasons:
 - Single codebase exports to Windows, Linux, and Android natively
