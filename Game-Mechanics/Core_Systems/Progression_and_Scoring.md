@@ -203,19 +203,129 @@ Unlocks in batches by suspicion tier and environment category. Low Suspicion haz
 ---
 
 ### TRACK 4 — COSMETICS & FLAIR
-*Visual and audio customization unlocked through Viral Impact score and star accumulation*
+*Visual and audio customization unlocked through cumulative star total*
 
-Cosmetics are purely aesthetic and never affect gameplay. Unlocked through a combination of cumulative stars and Viral Impact score.
+Cosmetics are purely aesthetic and never affect gameplay. All unlocked by cumulative star total only — same currency as the gameplay tracks, no secondary conditions.
 
-**Cosmetic categories:**
-- **Sound packs** — evil laugh variants, dramatic stings, custom incident sound effects
-- **Slow-motion filters** — cinematic slow-mo styles for incident replays on the debrief screen
-- **Inspector appearances** — alternate inspector visual styles
-- **Worker name packs** — themed name sets for generated workers
-- **Debrief screen themes** — alternate visual styles for the end-of-shift report
-- **UI flair** — custom PD meter styles, placement cursor effects
+28 unlockable cosmetic items across 6 categories:
 
-*Specific unlock thresholds for cosmetics to be determined during content production phase.*
+---
+
+#### Sound Packs
+Replace audio throughout the shift. Applied globally when selected.
+
+| Item | Description | Stars |
+|------|-------------|-------|
+| Evil Laugh Pack | Alternate placement confirmation sounds featuring increasingly theatrical villain laughs | 5 |
+| Corporate Jargon Pack | Worker ambient lines replaced with impenetrable business speak ("synergizing the vertical" right before walking into a trap) | 25 |
+| Silent Film Pack | All voice lines replaced with dramatic piano accompaniment and title cards | 60 |
+| Nature Documentary Pack | Hushed reverent narration describing each incident (procedurally generated from incident type) | 120 |
+| Dramatic Orchestral Pack | All sound effects replaced with full orchestral equivalents. The grand piano falling has a full string section | 180 |
+| Retro Arcade Pack | 8-bit sound effects throughout — prestige unlock beyond max gameplay progression | 250 |
+
+---
+
+#### Slow-Motion Filters
+Applied to incident replay moments on the debrief highlight reel.
+
+| Item | Description | Stars |
+|------|-------------|-------|
+| Cinematic | Desaturated, film grain, dramatic | 10 |
+| CCTV Footage | Grainy black and white, timestamp watermark | 20 |
+| Cartoon | Color pop, exaggerated squash-and-stretch visual style | 90 |
+| Documentary | Warm tones, slightly handheld | 200 |
+
+---
+
+#### Inspector Appearances
+Alternate visual styles for the Safety Inspector. Behavior is identical regardless of appearance.
+
+| Item | Description | Stars |
+|------|-------------|-------|
+| Film Noir | Trench coat, fedora, dramatically backlit | 40 |
+| Bureaucrat Supreme | Buried under so much paperwork they can barely move | 100 |
+| Hazmat | Full hazmat suit, deeply suspicious of everything | 150 |
+| Undercover | Dressed as a regular worker, clipboard hidden inside a clipboard | 210 |
+
+---
+
+#### Worker Name Packs
+Themed name sets for procedurally generated workers.
+
+| Item | Description | Stars |
+|------|-------------|-------|
+| Classic British | Trevor, Nigel, Beryl, Keith, Maureen | 15 |
+| Soap Opera | Inexplicably dramatic names | 70 |
+| Heroic Fantasy | Sir Reginald of the Loading Bay, Dame Patricia the Forklift Knight | 130 |
+| Alliterative | Barry Barnes, Carol Clark, Dennis Dixon | 190 |
+
+---
+
+#### Debrief Screen Themes
+Alternate visual presentation for the end-of-shift report screen. Content is identical — only the framing changes.
+
+| Item | Description | Stars |
+|------|-------------|-------|
+| True Crime Documentary | Evidence board, red string, grainy photos | 50 |
+| Breaking News | News ticker, urgency chyrons, "developing story" | 110 |
+| Insurance Claim Form | Every metric presented as a bureaucratic form field | 170 |
+| Motivational Seminar | Relentlessly positive spin on every metric ("15 growth opportunities identified") | 240 |
+
+---
+
+#### UI Flair
+Split into PD Meter skins and Cursor Effects. Each is a separate unlock.
+
+**PD Meter Skins:**
+
+| Item | Description | Stars |
+|------|-------------|-------|
+| Coffee Mug | Suspicion fills a progressively overfull mug | 80 |
+| Stress Ball | Meter is a cartoon face getting progressively more horrified | 160 |
+| HR Complaint Box | Filling with written complaints | 230 |
+
+**Cursor Effects:**
+
+| Item | Description | Stars |
+|------|-------------|-------|
+| Clipboard & Pen | Placement cursor becomes a clipboard and pen | 30 |
+| Pointing Finger | Classic cartoon pointing finger | 140 |
+| Magnifying Glass | Suggests thorough professional scrutiny | 220 |
+
+---
+
+**Full unlock schedule:**
+
+| Stars | Item | Category |
+|-------|------|----------|
+| 5 | Evil Laugh Pack | Sound |
+| 10 | Cinematic filter | Slow-Mo |
+| 15 | Classic British name pack | Names |
+| 20 | CCTV Footage filter | Slow-Mo |
+| 25 | Corporate Jargon Pack | Sound |
+| 30 | Clipboard & Pen cursor | UI Flair |
+| 40 | Film Noir inspector | Inspector |
+| 50 | True Crime debrief theme | Debrief |
+| 60 | Silent Film Pack | Sound |
+| 70 | Soap Opera name pack | Names |
+| 80 | Coffee Mug PD meter | UI Flair |
+| 90 | Cartoon filter | Slow-Mo |
+| 100 | Bureaucrat Supreme inspector | Inspector |
+| 110 | Breaking News debrief theme | Debrief |
+| 120 | Nature Documentary Pack | Sound |
+| 130 | Heroic Fantasy name pack | Names |
+| 140 | Pointing Finger cursor | UI Flair |
+| 150 | Hazmat inspector | Inspector |
+| 160 | Stress Ball PD meter | UI Flair |
+| 170 | Insurance Claim debrief theme | Debrief |
+| 180 | Dramatic Orchestral Pack | Sound |
+| 190 | Alliterative name pack | Names |
+| 200 | Documentary filter | Slow-Mo |
+| 210 | Undercover inspector | Inspector |
+| 220 | Magnifying Glass cursor | UI Flair |
+| 230 | HR Complaint Box PD meter | UI Flair |
+| 240 | Motivational Seminar debrief theme | Debrief |
+| 250 | Retro Arcade Pack | Sound |
 
 ---
 

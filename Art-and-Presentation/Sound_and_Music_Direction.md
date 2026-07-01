@@ -208,16 +208,18 @@ Shift Start
 
 ---
 
-## Cosmetic Audio Unlocks (Track 4 — Cosmetics)
+## Cosmetic Audio Unlocks (Track 4 — Sound Packs)
 
-The following audio cosmetics are unlocked through the progression system:
+Six sound packs unlocked by cumulative star total. Full Track 4 unlock schedule in `Progression_and_Scoring.md`.
 
-- **Evil Laugh Pack** — alternate placement confirmation sounds featuring increasingly theatrical villain laughs
-- **Corporate Jargon Pack** — worker ambient lines replaced with impenetrable business speak ("synergizing the vertical" right before walking into a trap)
-- **Silent Film Pack** — all voice lines replaced with dramatic piano accompaniment and title cards
-- **Nature Documentary Pack** — David Attenborough-style narration describing incidents in hushed, reverent tones (procedurally generated from incident type)
-- **Dramatic Orchestral Pack** — all sound effects replaced with full orchestral equivalents. The grand piano falling has a full string section
-- **Retro Arcade Pack** — 8-bit sound effects throughout
+| Pack | Description | Unlocks At |
+|------|-------------|------------|
+| Evil Laugh Pack | Alternate placement confirmation sounds featuring increasingly theatrical villain laughs | 5 stars |
+| Corporate Jargon Pack | Worker ambient lines replaced with impenetrable business speak ("synergizing the vertical" right before walking into a trap) | 25 stars |
+| Silent Film Pack | All voice lines replaced with dramatic piano accompaniment and title cards | 60 stars |
+| Nature Documentary Pack | Hushed reverent narration describing each incident, procedurally generated from incident type | 120 stars |
+| Dramatic Orchestral Pack | All sound effects replaced with full orchestral equivalents. The grand piano falling has a full string section | 180 stars |
+| Retro Arcade Pack | 8-bit sound effects throughout — prestige unlock beyond max gameplay progression | 250 stars |
 
 ---
 

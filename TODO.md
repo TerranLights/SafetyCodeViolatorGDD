@@ -28,7 +28,7 @@
 
 - [ ] **Ghost types** — `Level_Variants.md` lists four ghost types (Standard, Poltergeist, Phantom Foreman, The Whistler) but marks them all TBD. Moved to Tier 4 — save for later design.
 
-- [ ] **Cosmetic unlock thresholds (Track 4)** — Progression track 4 exists and cosmetic categories are listed, but specific star thresholds are not defined. In progress — see below.
+- [x] **Cosmetic unlock thresholds (Track 4)** — 28 items across 6 categories fully designed and documented in `Progression_and_Scoring.md`. Unlock schedule runs from 5 stars (Evil Laugh Pack) to 250 stars (Retro Arcade Pack prestige).
 
 ---
 
