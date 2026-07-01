@@ -54,6 +54,12 @@
 ## TIER 4 — Low Priority / Polish
 *Items that can wait until active development begins or until the relevant system is being built.*
 
+- [ ] **Steam Deck — UI readability pass** — Verify all UI text and interactive elements are readable and usable at 800p on a 7-inch screen. Likely fine given Android-first design, but needs a dedicated test pass.
+
+- [ ] **Steam Deck — Setup Phase input feel** — Hazard placement during Setup Phase is the most input-intensive moment. Test and tune analog stick + trackpad interaction to make sure it feels good, not just functional.
+
+- [ ] **Steam Deck — Valve certification** — Apply for Steam Deck Verified or Playable status. Requires: controller support implemented, no small unreadable text, no desktop mode dependency. Submit once controller support is finalized.
+
 - [ ] **Portal destinations** — `Hazard_Inheritance_System.md` lists "Portal" as a Universal hazard with "Destination TBD per level." Each level doc can define this when that level's doc is written.
 
 - [ ] **Ambiguous hazard descriptions** — A handful of entries in `Hazard_Inheritance_System.md` have placeholder descriptions ("nature of replacement TBD", "nature of experiment: TBD", "nature of evidence: TBD"). Fine to leave until those specific levels are being designed.

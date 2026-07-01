@@ -12,9 +12,10 @@
 | Steam (Windows) | Primary | 15–45 minutes | Mouse + Keyboard | Native build |
 | Steam (Linux) | Primary | 15–45 minutes | Mouse + Keyboard | Native build |
 | Android | Primary | 15–30 minutes | Touch-first | Google Play |
-| Controller (PC) | Secondary | Same as Steam | Gamepad | To be confirmed — see Open Questions |
+| Steam Deck | Secondary | 15–30 minutes | Gamepad + trackpad-as-mouse | Runs Linux build natively |
+| Controller (PC) | Secondary | Same as Steam | Gamepad | Deferred — to confirm once UI design is finalized |
 
-Both Steam and Android are treated as primary targets. Neither is an afterthought. Design decisions must work on both.
+Steam (Windows/Linux) and Android are treated as primary targets. Neither is an afterthought. Steam Deck is a confirmed secondary target — it runs the Linux build natively at no extra cost and suits the game's session length and play style well.
 
 ---
 
@@ -86,6 +87,34 @@ Godot is the confirmed engine for all platforms. Key reasons:
 - Demo version: Construction Site only
 - Full version: All 40+ workplaces
 - Steam Workshop: See Modding section below
+
+---
+
+### Steam Deck
+
+Runs the Linux build natively — no Proton required, no separate build needed.
+
+**Input:**
+- Gamepad buttons and analog sticks for navigation and simulation controls
+- Right trackpad emulates mouse for hazard placement during Setup Phase (no touchscreen on Deck)
+- Full native gamepad support unlocks automatically once PC controller support is implemented
+
+**Session Design:**
+- 15–30 minute shift length suits handheld play well
+- No always-online requirement — plays fully offline
+- Steam Cloud save sync keeps progress in line with PC sessions
+
+**Performance:**
+- Steam Deck hardware significantly exceeds mid-range Android targets — performance should be excellent on the Linux build with no Deck-specific optimization required
+
+**Distribution:**
+- Ships as part of the Steam (Linux) release — no separate SKU
+- Target Valve's Steam Deck Verified or Playable certification (requires controller support and UI readability pass — see TODO)
+
+**Pending (see TODO — Tier 4):**
+- UI text readability verification at 800p on 7-inch screen
+- Hazard placement feel testing with analog stick + trackpad input
+- Steam Deck certification submission
 
 ---
 

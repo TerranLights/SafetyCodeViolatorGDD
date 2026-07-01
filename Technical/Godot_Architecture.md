@@ -1,7 +1,7 @@
 # Godot_Architecture
 
 ## Engine Version
-**Godot 4.3+ (stable)** — Excellent 2D performance, strong mobile support, and great GDExtension/C++ options if needed.
+**Godot 4.3+ (stable)** — Excellent 2D performance, strong mobile support, and great GDExtension/C++ options if needed. Single codebase exports to Windows, Linux (including Steam Deck native), and Android.
 
 ## Overall Architecture
 
